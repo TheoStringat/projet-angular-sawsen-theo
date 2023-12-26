@@ -1,19 +1,23 @@
 import { Injectable } from '@angular/core';
 import { User } from '../user.model';
-import { AppComponent } from '../app.component';
-
+import { UsersService } from './users.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
   loggedIn = false;
-  tableLoggin = [
-    {login: 'user1', password: 'password1', role: 'admin'},
-    {login: 'user2', password: 'password2', role: 'user'},
-    {login: 'user3', password: 'password3', role: 'user'}
-  ];
+  tableLoggin: User[] = [];
   currentUser: User | null = null;
+
+  constructor(private usersService: UsersService ) {
+    this.usersService.getAssignments().subscribe((users) => {
+      this.tableLoggin = users;
+      if (this.tableLoggin.length === 0) {
+        console.log("ERREUR : AUCUN UTILISATEUR TROUVE");
+      }
+    });
+  }
 
   logIn(login: string, password: string): boolean {
     const user = this.tableLoggin.find((user) => user.login === login && user.password === password 
@@ -32,6 +36,7 @@ export class AuthService {
     this.loggedIn = false;
     this.currentUser = null;
   }
+
 
   // renvoie une promesse qui, lorsqu'elle est "résolved", renvoie si l'utilisateur
   // est admin ou pas. Verifie si le role est 'admin'

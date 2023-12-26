@@ -14,27 +14,6 @@ export class AssignmentsService {
   constructor(private loggingService:LoggingService,
               private http:HttpClient) {}
 
-  assignments:Assignment[] = [
-    {
-      id: 1,
-      nom: 'Devoir Angular de Buffa',
-      dateDeRendu: new Date('2023-09-30'),
-      rendu: false,
-    },
-    {
-      id: 2,
-      nom: 'Devoir SQL de Mopolo',
-      dateDeRendu: new Date('2023-10-30'),
-      rendu: false,
-    },
-    {
-      id: 3,
-      nom: 'Devoir gestion de Tunsi',
-      dateDeRendu: new Date('2023-08-30'),
-      rendu: true,
-    },
-  ];
-
   url = 'http://localhost:8010/api/assignments';
 
   getAssignments():Observable<Assignment[]> {
@@ -44,29 +23,18 @@ export class AssignmentsService {
 
   // renvoie comme Observable l'assignment dont l'id est passé en paramètre, ou undefined s'il n'existe pas
   getAssignment(id:number):Observable<Assignment|undefined> {
-    //const a:Assignment|undefined = this.assignments.find(a => a.id === id);
-    //return of(a);
     return this.http.get<Assignment>(this.url + '/' + id);
   }
 
   addAssignment(assignment:Assignment):Observable<any> {
-    //this.assignments.push(assignment);
-    //this.loggingService.log(assignment.nom, 'a été ajouté');
-
-    //return of('Assignment ajouté');
     return this.http.post<Assignment>(this.url, assignment);
   }
 
   updateAssignment(assignment:Assignment):Observable<any> {
-    //return of('Assignment service: Assignment modifié !');
     return this.http.put<Assignment>(this.url, assignment);
   }
 
   deleteAssignment(assignment:Assignment):Observable<any> {
-    //let pos = this.assignments.indexOf(assignment);
-    //this.assignments.splice(pos, 1);
-
-    //return of('Assignment service: Assignment supprimé !');
     let deleteURI = this.url + '/' + assignment._id;
     return this.http.delete(deleteURI);
   }
