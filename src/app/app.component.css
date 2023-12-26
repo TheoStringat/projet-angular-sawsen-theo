@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.my-sidenav {
+    height: calc(100vh - 64px);
+    width: 100%;
+}
+
+  

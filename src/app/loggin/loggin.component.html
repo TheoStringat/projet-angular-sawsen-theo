@@ -1,0 +1,27 @@
+<form class="form" [formGroup]="loginForm">
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Login"
+      formControlName="login"
+      name="loggin"
+      required
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <input
+      matInput
+      placeholder="Password"
+      formControlName="password"
+      name="password"
+      required
+    />
+  </mat-form-field>
+  <button
+    mat-stroked-button
+    color="primary"
+    (click)="onSubmit()"
+  >
+    Se connecter
+  </button>
+</form>

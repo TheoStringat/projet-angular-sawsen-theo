@@ -1,0 +1,61 @@
+import { Injectable } from '@angular/core';
+import { User } from '../user.model';
+
+
+@Injectable({
+  providedIn: 'root'
+})
+export class AuthService {
+  loggedIn = false;
+  tableLoggin = [
+    {login: 'user1', password: 'password1', role: 'admin'},
+    {login: 'user2', password: 'password2', role: 'user'},
+    {login: 'user3', password: 'password3', role: 'user'}
+  ];
+  currentUser: User | null = null;
+
+  logIn(login: string, password: string): boolean {
+    const user = this.tableLoggin.find((user) => user.login === login && user.password === password 
+      && (user.role === 'admin' || user.role === 'user'));
+    if (user) {
+      this.loggedIn = true;
+      this.currentUser = user;
+      return this.loggedIn;
+    } else {
+      this.loggedIn = false;
+      return this.loggedIn;
+    }
+  }
+
+  logOut() {
+    this.loggedIn = false;
+    this.currentUser = null;
+  }
+
+  // renvoie une promesse qui, lorsqu'elle est "résolved", renvoie si l'utilisateur
+  // est admin ou pas. Verifie si le role est 'admin'
+  // Vérifie si un utilisateur est un administrateur
+  isAdmin(): Promise<boolean> {
+    return new Promise((resolve, reject) => {
+      if (this.loggedIn && this.currentUser?.role === 'admin') {
+        resolve(true);
+      } else {
+        resolve(false);
+      }
+    });
+  }
+
+  isAdmin2(): boolean {
+    return this.loggedIn && this.currentUser?.role === 'admin';
+  }
+
+
+
+  // renvoie une promesse qui, lorsqu'elle est "résolved", renvoie si l'utilisateur
+  // est loggé ou pas s'il est present dans le tableau tableLoggin quand on le parcourt
+  // Vérifie si un utilisateur est connecté
+  isLogged(): Promise<boolean> {
+    return Promise.resolve(this.loggedIn);
+  }
+    
+} 

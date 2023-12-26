@@ -1,0 +1,37 @@
+/* Center the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* Style the error message */
+.error {
+    color: red;
+    margin: 10px;
+}
