@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { User } from '../user.model';
+import { AppComponent } from '../app.component';
 
 
 @Injectable({

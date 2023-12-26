@@ -15,11 +15,13 @@
     <span>Gestion des devoirs</span>
     <span class="example-spacer"></span>
 
-    <button mat-icon-button routerLink="/login" >
+    <button id="ico_login" mat-icon-button routerLink="/login" >
       <mat-icon>account_circle</mat-icon>
     </button>
-  
-    <!--<mat-slide-toggle color="red" (click)="login()">Login</mat-slide-toggle>-->
+
+    <button id="ico_logout" (click)="logout()" style="display: none;" mat-icon-button routerLink="/logout" >
+      <mat-icon>logout</mat-icon>
+    </button>
 
   </mat-toolbar-row>
 </mat-toolbar>

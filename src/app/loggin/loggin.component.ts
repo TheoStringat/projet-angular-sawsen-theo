@@ -28,6 +28,13 @@ export class LogginComponent implements OnInit {
       const password = this.loginForm.value.password;
       if(this.authService.logIn(login || '', password || '')){
         this.router.navigate(["/home"]);
+        //ne plus afficher le bouton de connexion
+        const loginElement = document.getElementById('ico_login');
+        const logoutElement = document.getElementById('ico_logout');
+        if (loginElement !== null && logoutElement !== null) {
+          loginElement.style.display = 'none';
+          logoutElement.style.display = 'block';
+        }
       }
       else {
         alert("Login ou mot de passe incorrect !");
