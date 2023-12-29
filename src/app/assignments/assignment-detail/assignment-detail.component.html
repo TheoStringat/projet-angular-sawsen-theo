@@ -2,7 +2,15 @@
     <mat-card *ngIf="assignmentTransmis">
         
         <mat-card-title>{{assignmentTransmis.nom}}</mat-card-title>
-        <mat-card-subtitle>{{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
+        <mat-card-subtitle *ngIf="assignmentTransmis.rendu">Rendu le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
+        <mat-card-subtitle *ngIf="!assignmentTransmis.rendu">A rendre pour le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
+        <mat-card-content>
+            <p>Devoir : {{assignmentTransmis.nom}}</p>
+            
+            <p>Rendu par {{assignmentTransmis.auteur}}</p>
+            <img mat-card-image src="../../../src/assets/matieres/{{assignmentTransmis.matiere.imageMatiere}}" alt="Photo de la matière" />
+            <img mat-card-image src="../../../src/assets/profs/{{assignmentTransmis.matiere.imageProf}}" alt="Photo du professeur de cette matière" />
+        </mat-card-content>
         <mat-card-actions id="bottom">
             <mat-checkbox *ngIf="!assignmentTransmis.rendu" (click)="onAssignmentRendu()">Devoir rendu</mat-checkbox>
             <button mat-raised-button color="primary" (click)="onClickEdit()" [disabled]="!isAdmin()">Editer</button>

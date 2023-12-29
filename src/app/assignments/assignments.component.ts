@@ -30,6 +30,8 @@ export class AssignmentsComponent implements OnInit {
   formVisible = false;
   assignments!:Assignment[];
 
+  
+
   constructor(private assignmentService:AssignmentsService) { }
 
   
@@ -66,19 +68,6 @@ export class AssignmentsComponent implements OnInit {
   onAddAssignmentBtnClick() {
     //this.formVisible = true;
   }
-
-/*
-  onNouvelAssignment(event: Assignment) {
-    //this.assignments.push(event);
-    this.assignmentService.addAssignment(event)
-      .subscribe(message => {
-        console.log(message);
-      }
-    );
-
-    this.formVisible = false;
-  }
-*/
 
   //supprimer un assignment
   onAssignmentDelete(event: Assignment) {

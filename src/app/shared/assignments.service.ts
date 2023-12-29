@@ -4,12 +4,28 @@ import { Observable, of } from 'rxjs';
 import { LoggingService } from './logging.service';
 import { HttpClient } from '@angular/common/http';
 import { bdInitialAssignments } from './data';
+import { Matiere } from '../matiere.modele';
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class AssignmentsService {
+  // Tableau de matieres
+  matieres: Matiere[] = [
+    {nom: "Technologies Web", imageMatiere: "technoWeb.png", imageProf: "prof1.png"},
+    {nom: "Base de données", imageMatiere: "bdd.png", imageProf: "prof2.png"},
+    {nom: "Analyse financière", imageMatiere: "finance.png", imageProf: "prof4.png"},
+    {nom: "Grails", imageMatiere: "grails.png", imageProf: "prof5.png"},
+    {nom: "Economie", imageMatiere: "economie.png", imageProf: "prof6.png"},
+    {nom: "Anglais", imageMatiere: "anglais.png", imageProf: "prof1.png"},
+    {nom: "Mathématiques", imageMatiere: "mathematiques.png", imageProf: "prof2.png"},
+    {nom: "Outils pour le big data", imageMatiere: "bigData.png", imageProf: "prof3.png"},
+    {nom: "Planification de projet", imageMatiere: "planificationProjet.png", imageProf: "prof4.png"},
+    {nom: "Programmation avancée Java", imageMatiere: "java.png", imageProf: "prof5.png"},
+    {nom: "Communication", imageMatiere: "communication.png", imageProf: "prof6.png"},
+    {nom: "Ingénierie des besoins", imageMatiere: "ingenierieBesoins.png", imageProf: "prof3.png"}
+  ];
 
   constructor(private loggingService:LoggingService,
               private http:HttpClient) {}
@@ -42,10 +58,27 @@ export class AssignmentsService {
   peuplerBD() {
     bdInitialAssignments.forEach(a => {
       let nouvelAssignment = new Assignment();
-      nouvelAssignment.nom = a.nom;
+      
+      nouvelAssignment.matiere = {} as Matiere; // Initialisez matiere comme un objet vide
+
+      const matiereTrouvee = this.matieres.find((m) => m.nom === a.matiere);
+      if (matiereTrouvee) {
+        console.log("ALERTEEEEEEEEE !!!");
+        nouvelAssignment.matiere = {
+          nom: matiereTrouvee.nom,
+          imageMatiere: matiereTrouvee.imageMatiere,
+          imageProf: matiereTrouvee.imageProf
+        };
+      }
+
       nouvelAssignment.id = a.id;
+      nouvelAssignment.nom = a.nom;
       nouvelAssignment.dateDeRendu = new Date(a.dateDeRendu);
       nouvelAssignment.rendu = a.rendu;
+      nouvelAssignment.auteur = a.auteur;
+      nouvelAssignment.note = a.note;
+      nouvelAssignment.remarques = a.remarques;
+      nouvelAssignment._id = a._id.$oid;
  
       this.addAssignment(nouvelAssignment)
       .subscribe(reponse => {

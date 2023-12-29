@@ -16,7 +16,7 @@ auteurs
     - [X] AVANCE : Cas mieux (mais pas mal de travail sur back-end): en créant une collection Utilisateurs dans MongoDB, et en validant que le user/password est correct. 
     - [ ] AVANCE++ : Encore mieux: regardez comment utiliser l'authentification à l'aide de Json Web Tokens (JWT), en suivant par exemple ce tutoriel.   
     
-- [] Ajouter de nouvelles propriétés au modèle des Assignments
+- [X] Ajouter de nouvelles propriétés au modèle des Assignments
     - [X] Vous ajouterez dans la définition des assignments : 
     - [X] Auteur (nom de l'élève)
     - [X] Matière (Base de données, Technologies Web, Grails, etc.)

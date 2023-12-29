@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { bdInitialAssignments } from './shared/data';
 import { Assignment } from './assignments/assignment.model';
 import { AssignmentsService } from './shared/assignments.service';
 import { AuthService } from './shared/auth.service';
-//import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
