@@ -10,8 +10,8 @@ auteurs
 
 - [X] Au moins 1000 assignments dans la base de données
 
-- [ ] Ajouter une gestion de login/password
-    - [ ] Vous ajouter dans la toolbar un formulaire login/password + bouton connexion. Une fois loggué, le formulaire disparait et seul un bouton de deconnexion apparait.
+- [X] Ajouter une gestion de login/password
+    - [X] Vous ajouter dans la toolbar un formulaire login/password + bouton connexion. Une fois loggué, le formulaire disparait et seul un bouton de deconnexion apparait.
     - [X] Si on est loggué en tant que user autorisé on a le droit de modifier / ajouter un assignment. Si on est loggué en admin on pourra en plus supprimer des assignments. Si on n'est pas loggué on ne peut que consulter.
     - [X] AVANCE : Cas mieux (mais pas mal de travail sur back-end): en créant une collection Utilisateurs dans MongoDB, et en validant que le user/password est correct. 
     - [ ] AVANCE++ : Encore mieux: regardez comment utiliser l'authentification à l'aide de Json Web Tokens (JWT), en suivant par exemple ce tutoriel.   
@@ -30,7 +30,7 @@ auteurs
     - [ ] Vous afficherez les assignments dans une table angular material. A vous de voir si vous arrivez à la rendre triable, avec ligne des headers fixe (qui ne scrolle pas), avec la pagination. Ajoutez un moyen pour avoir une vue de détail sur un assignment.
     - [ ] OPTIONNEL : pour la pagination vous pouvez regarder pour utiliser le composant Paginator de angular material.
     - [ ] Regardez les tables avec datasource, c'est encore plus simple.
-    - [ ] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.
+    - [X] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.
     - [ ] Les formulaires d'ajout et de détails proposeront un choix fixe de matières (et associeront automatiquement le prof et l'image illustrant la matière) 
     - [ ] OPTIONNEL : Ajouter un filtre rendu/non rendu : Selon que cette case est cochée ou pas le tableau affichera uniquement les assignments rendus ou non rendus. 
     - [ ] OPTIONNEL : Ajouter un champ de recherche sur le nom de l'assignment qui enverra une requête et affichera les résultats correspondants à la recherche. 
