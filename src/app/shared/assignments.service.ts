@@ -59,18 +59,16 @@ export class AssignmentsService {
     bdInitialAssignments.forEach(a => {
       let nouvelAssignment = new Assignment();
       
-      nouvelAssignment.matiere = {} as Matiere; // Initialisez matiere comme un objet vide
+      nouvelAssignment.matiere = {} as Matiere;
 
       const matiereTrouvee = this.matieres.find((m) => m.nom === a.matiere);
       if (matiereTrouvee) {
-        console.log("ALERTEEEEEEEEE !!!");
         nouvelAssignment.matiere = {
           nom: matiereTrouvee.nom,
           imageMatiere: matiereTrouvee.imageMatiere,
           imageProf: matiereTrouvee.imageProf
         };
       }
-
       nouvelAssignment.id = a.id;
       nouvelAssignment.nom = a.nom;
       nouvelAssignment.dateDeRendu = new Date(a.dateDeRendu);

@@ -6,7 +6,7 @@ export class Assignment {
     nom!: string
     dateDeRendu!: Date
     rendu!: boolean
-    auteur!: string //nom de l'eleve
+    auteur!: string
     matiere!: Matiere
     note!: number
     remarques!: string
