@@ -12,19 +12,19 @@ import { Matiere } from '../matiere.modele';
 
 export class AssignmentsService {
   // Tableau de matieres
-  matieres: Matiere[] = [
-    {nom: "Technologies Web", imageMatiere: "technoWeb.png", imageProf: "prof1.png"},
-    {nom: "Base de données", imageMatiere: "bdd.png", imageProf: "prof2.png"},
-    {nom: "Analyse financière", imageMatiere: "finance.png", imageProf: "prof4.png"},
-    {nom: "Grails", imageMatiere: "grails.png", imageProf: "prof5.png"},
-    {nom: "Economie", imageMatiere: "economie.png", imageProf: "prof6.png"},
-    {nom: "Anglais", imageMatiere: "anglais.png", imageProf: "prof1.png"},
-    {nom: "Mathématiques", imageMatiere: "mathematiques.png", imageProf: "prof2.png"},
-    {nom: "Outils pour le big data", imageMatiere: "bigData.png", imageProf: "prof3.png"},
-    {nom: "Planification de projet", imageMatiere: "planificationProjet.png", imageProf: "prof4.png"},
-    {nom: "Programmation avancée Java", imageMatiere: "java.png", imageProf: "prof5.png"},
-    {nom: "Communication", imageMatiere: "communication.png", imageProf: "prof6.png"},
-    {nom: "Ingénierie des besoins", imageMatiere: "ingenierieBesoins.png", imageProf: "prof3.png"}
+  private matieres: Matiere[] = [
+    {nom: "Technologies Web", imageMatiere: "technoWeb.png", prof: "prof1"},
+    {nom: "Base de données", imageMatiere: "bdd.png", prof: "prof2"},
+    {nom: "Analyse financière", imageMatiere: "finance.png", prof: "prof4"},
+    {nom: "Grails", imageMatiere: "grails.png", prof: "prof5"},
+    {nom: "Economie", imageMatiere: "economie.png", prof: "prof6"},
+    {nom: "Anglais", imageMatiere: "anglais.png", prof: "prof1"},
+    {nom: "Mathématiques", imageMatiere: "mathematiques.png", prof: "prof2"},
+    {nom: "Outils pour le big data", imageMatiere: "bigData.png", prof: "prof3"},
+    {nom: "Planification de projet", imageMatiere: "planificationProjet.png", prof: "prof4"},
+    {nom: "Programmation avancée Java", imageMatiere: "java.png", prof: "prof5"},
+    {nom: "Communication", imageMatiere: "communication.png", prof: "prof6"},
+    {nom: "Ingénierie des besoins", imageMatiere: "ingenierieBesoins.png", prof: "prof3"}
   ];
 
   constructor(private loggingService:LoggingService,
@@ -66,7 +66,7 @@ export class AssignmentsService {
         nouvelAssignment.matiere = {
           nom: matiereTrouvee.nom,
           imageMatiere: matiereTrouvee.imageMatiere,
-          imageProf: matiereTrouvee.imageProf
+          prof: matiereTrouvee.prof
         };
       }
       nouvelAssignment.id = a.id;
@@ -74,7 +74,6 @@ export class AssignmentsService {
       nouvelAssignment.dateDeRendu = new Date(a.dateDeRendu);
       nouvelAssignment.rendu = a.rendu;
       nouvelAssignment.auteur = a.auteur;
-      nouvelAssignment.note = a.note;
       nouvelAssignment.remarques = a.remarques;
       nouvelAssignment._id = a._id.$oid;
  
@@ -87,6 +86,10 @@ export class AssignmentsService {
 
   getAssignmentsPagine(page:number, limit:number):Observable<any> {
     return this.http.get<any>(this.url + '?page=' + page + '&limit=' + limit);
+  }
+
+  getMatieres():Observable<Matiere[]> {
+    return of(this.matieres);
   }
 
 }

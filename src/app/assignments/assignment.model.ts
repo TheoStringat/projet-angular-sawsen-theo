@@ -8,7 +8,7 @@ export class Assignment {
     rendu!: boolean
     auteur!: string
     matiere!: Matiere
-    note!: number
+    note!: number | null
     remarques!: string
     id!: number //id de l'assignment qui s'incremente automatiquement
 }

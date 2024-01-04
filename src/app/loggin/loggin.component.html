@@ -1,27 +1,19 @@
 <form class="form" [formGroup]="loginForm">
+
   <mat-form-field>
-    <input
-      matInput
-      placeholder="Login"
-      formControlName="login"
-      name="loggin"
-      required
-    />
+    <mat-label>Login</mat-label>
+    <input matInput formControlName="login" [type]="hide ? 'login' : 'text'" required />
   </mat-form-field>
+
   <mat-form-field>
-    <input
-      matInput
-      placeholder="Password"
-      formControlName="password"
-      name="password"
-      required
-    />
+    <mat-label>Password</mat-label>
+    <input matInput formControlName="password" [type]="hide ? 'password' : 'text'" required/>
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
   </mat-form-field>
-  <button
-    mat-stroked-button
-    color="primary"
-    (click)="onSubmit()"
-  >
-    Se connecter
+
+  <button mat-stroked-button color="primary" (click)="onSubmit()"> Se connecter
   </button>
+
 </form>
