@@ -1,28 +1,25 @@
+<!-- app.component.html -->
+
 <mat-toolbar color="primary">
   <mat-toolbar-row>
     <button mat-raised-button (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
 
-    <button
-      mat-icon-button
-      aria-label="Home"
-      routerLink="/home"
-    >
+    <button mat-icon-button aria-label="Home" routerLink="/home">
       <mat-icon>house</mat-icon>
     </button>
 
-    <span>Gestion des devoirs</span>
+    <span class="toolbar-title">Gestion des devoirs</span>
     <span class="example-spacer"></span>
 
-    <button id="ico_login" mat-icon-button routerLink="/login" >
+    <button id="ico_login" mat-icon-button routerLink="/login">
       <mat-icon>account_circle</mat-icon>
     </button>
 
-    <button id="ico_logout" (click)="logout()" style="display: none;" mat-icon-button routerLink="/logout" >
+    <button id="ico_logout" (click)="logout()" style="display: none;" mat-icon-button routerLink="/logout">
       <mat-icon>logout</mat-icon>
     </button>
-
   </mat-toolbar-row>
 </mat-toolbar>
 
@@ -35,24 +32,23 @@
       <a mat-list-item routerLink="/add" routerLinkActive="active-link">
         <span>Ajout d'un devoir</span>
       </a>
-      <a mat-list-item routerLink="/teachers" routerLinkActive="active-link">
+      <a mat-list-item routerLink="/edit" routerLinkActive="active-link">
         <span>Modification d'un devoir</span>
       </a>
-      <a mat-list-item routerLink="/login" routerLinkActive="active-link">
+      <a mat-list-item routerLink="/" routerLinkActive="active-link">
         <span>Suppression d'un devoir</span>
       </a>
-      <a mat-list-item routerLink="/login" routerLinkActive="active-link">
+      <a mat-list-item routerLink="/" routerLinkActive="active-link">
         <span>Génération de données de test</span>
       </a>
     </mat-nav-list>
   </mat-drawer>
 
-  <h1>
-    <nav><a routerLink="/home">{{title}}</a></nav>
-  </h1>
+  <div >
+    <h1>
+      <nav><a routerLink="/home">{{ title }}</a></nav>
+    </h1>
 
-  <button mat-raised-button (click)="peuplerBD()">Peupler les assignments</button>
-  
-  <router-outlet></router-outlet>
-  
+    <router-outlet ></router-outlet>
+  </div>
 </mat-drawer-container>

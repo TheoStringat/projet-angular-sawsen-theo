@@ -16,9 +16,6 @@ export class AppComponent {
   constructor(private assignmentService:AssignmentsService,
               private authService:AuthService) { }
 
-  peuplerBD() {
-    this.assignmentService.peuplerBD();
-  }
 
 
   logout() {
