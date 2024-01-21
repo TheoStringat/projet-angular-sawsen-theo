@@ -54,6 +54,11 @@ export class AddAssignmentComponent implements OnInit{
   onAnnuler() {
     this.nomDevoir = "";
     this.dateDeRendu = new Date();
+  
+  }
+
+  peuplerBD() {
+    this.assignmentsService.peuplerBD();
   }
 
 }

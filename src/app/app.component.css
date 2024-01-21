@@ -1,10 +1,45 @@
+
+.body {
+  background-color: aqua;
+  background-size: cover;
+  margin: 0;
+  padding: 0%;
+}
 .example-spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .my-sidenav {
-    height: calc(100vh - 64px);
-    width: 100%;
+  height: calc(100vh - 64px);
+  width: 100%;
 }
 
-  
+.mat-toolbar-row {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-title {
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.example-spacer {
+  flex: 1;
+}
+
+.my-sidenav {
+  display: flex;
+}
+
+.mat-drawer {
+  width: 200px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.active-link {
+  background-color: #eee;
+}
