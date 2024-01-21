@@ -1,17 +1,10 @@
+.mat-toolbar {
+  background: rgba(206, 209, 206, 0.126); 
+  backdrop-filter: transparent ; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 
-.body {
-  background-color: aqua;
-  background-size: cover;
-  margin: 0;
-  padding: 0%;
-}
-.example-spacer {
-  flex: 1 1 auto;
-}
 
-.my-sidenav {
-  height: calc(100vh - 64px);
-  width: 100%;
+  height: 60px;
 }
 
 .mat-toolbar-row {
@@ -25,21 +18,15 @@
 }
 
 .example-spacer {
-  flex: 1;
+  flex: 0.9;
 }
 
-.my-sidenav {
-  display: flex;
+#ico_login,
+#ico_logout {
+  margin-right: 10px;
 }
 
-.mat-drawer {
-  width: 200px;
+#ico_logout {
+  display: none;
 }
 
-.main-content {
-  padding: 20px;
-}
-
-.active-link {
-  background-color: #eee;
-}

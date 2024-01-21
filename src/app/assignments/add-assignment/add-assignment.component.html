@@ -1,46 +1,47 @@
-<form ngForm #assignmentForm class="form">
-    <mat-form-field>
-        <input matInput [(ngModel)]="nomDevoir"  name="nom" placeholder="Nom du devoir">
-    </mat-form-field>
+<body>
+<form ngForm #assignmentForm class="wrapper">
+    <div class="input-box">
+        <input  matInput [(ngModel)]="nomDevoir"  name="nom" placeholder="Nom du devoir">
+    </div>
 
-    <mat-form-field appearance="fill">
+    <div class="input-box">
         <input matInput
             [matDatepicker]="picker" placeholder="Date de rendu"
             [(ngModel)]="dateDeRendu" name="date" required >
         
         <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
         <mat-datepicker #picker></mat-datepicker>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field>
-        <mat-label>Matière</mat-label>
+    <div class="input-box">
+        <mat-label style="color: #000;">Matière</mat-label>
         <mat-select [(ngModel)]="matiereSelectionnee" name="matiere" required>
             <mat-option *ngFor="let matiere of matieres" [value]="matiere.nom">
                 {{matiere.nom}}
             </mat-option>
         </mat-select>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field>
-        <mat-label>Professeur</mat-label>
+    <div class="input-box">
+        <mat-label style="color: #000;">Professeur</mat-label>
         <mat-select [(ngModel)]="profSelectionne" name="prof" required>
             <mat-option *ngFor="let matiere of matieres" [value]="matiere.prof">
                 {{matiere.prof}}
             </mat-option>
         </mat-select>
-    </mat-form-field>
+    </div>
 
-    <mat-form-field>
+    <div class="input-box">
         <input matInput [(ngModel)]="nomEleve" name="élève" placeholder="Auteur du devoir">  
-    </mat-form-field>
+    </div>
 
     <a routerLink="/home">
-        <button mat-stroked-button color="primary" 
+        <button class="btn" 
             (click)="onSubmit(); assignmentForm.reset()"
             >
             Ajouter un devoir
         </button>
     </a>
-    <button mat-raised-button (click)="peuplerBD()">Peupler les assignments</button>
-
+  
 </form>
+</body>

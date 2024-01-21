@@ -95,4 +95,7 @@ export class AssignmentsComponent implements OnInit {
     this.page++;
     this.ngOnInit();
   }
+  peuplerBD() {
+    this.assignmentService.peuplerBD();
+  }
 }

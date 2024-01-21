@@ -57,8 +57,6 @@ export class AddAssignmentComponent implements OnInit{
   
   }
 
-  peuplerBD() {
-    this.assignmentsService.peuplerBD();
-  }
+
 
 }
