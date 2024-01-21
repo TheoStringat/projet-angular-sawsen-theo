@@ -22,14 +22,18 @@
         </mat-select>
     </div>
 
+
     <div class="input-box">
         <mat-label style="color: #000;">Professeur</mat-label>
+
         <mat-select [(ngModel)]="profSelectionne" name="prof" required>
             <mat-option *ngFor="let matiere of matieres" [value]="matiere.prof">
                 {{matiere.prof}}
             </mat-option>
         </mat-select>
+
     </div>
+
 
     <div class="input-box">
         <input matInput [(ngModel)]="nomEleve" name="élève" placeholder="Auteur du devoir">  

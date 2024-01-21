@@ -35,13 +35,13 @@ export class AddAssignmentComponent implements OnInit{
     const matiereTrouvee = this.matieres.find((m) => m.nom === this.matiereSelectionnee);
     if (matiereTrouvee) {
       newAssignment.matiere.imageMatiere = matiereTrouvee.imageMatiere;
+      newAssignment.matiere.prof = matiereTrouvee.prof;
     }
 
     newAssignment.nom = this.nomDevoir;
     newAssignment.dateDeRendu = this.dateDeRendu;
     newAssignment.rendu = false;
     newAssignment.matiere.nom = this.matiereSelectionnee;
-    newAssignment.matiere.prof = this.profSelectionne;
     newAssignment.id = Math.floor(Math.random() * 1000);
 
     this.assignmentsService.addAssignment(newAssignment)
