@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/shared/auth.service';
   styleUrls: ['./assignment-detail.component.css']
 })
 export class AssignmentDetailComponent implements OnInit {
-  /*@Input()*/ assignmentTransmis!:Assignment | null;
+  assignmentTransmis!:Assignment | null;
   @Output() deleteAssignment : EventEmitter<Assignment> = new EventEmitter();
 
   constructor(private assignmentsService: AssignmentsService,
@@ -41,7 +41,6 @@ export class AssignmentDetailComponent implements OnInit {
         }
       );
     }
-    //this.router.navigate(["/home"]);
   }
 
   onAssignmentDelete() {
