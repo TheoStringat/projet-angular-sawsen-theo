@@ -11,12 +11,14 @@ export class AuthService {
   currentUser: User | null = null;
 
   constructor(private usersService: UsersService ) {
-    this.usersService.getAssignments().subscribe((users) => {
+
+    this.usersService.getUsers().subscribe((users) => {
       this.tableLoggin = users;
       if (this.tableLoggin.length === 0) {
         console.log("ERREUR : AUCUN UTILISATEUR TROUVE");
       }
     });
+    
   }
 
   logIn(login: string, password: string): boolean {

@@ -13,7 +13,8 @@ export class UsersService {
 
   url = 'http://localhost:8010/api/users';
 
-  getAssignments():Observable<User[]> {
+  
+  getUsers():Observable<User[]> {
     return this.http.get<User[]>(this.url);
   }
 
