@@ -1,23 +1,25 @@
-<div class="container"> 
+<body>
+<div class="warmer"> 
     <mat-card *ngIf="assignmentTransmis">
         
         <mat-card-title>{{assignmentTransmis.nom}}</mat-card-title>
         <mat-card-subtitle *ngIf="assignmentTransmis.rendu">Rendu le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
         <mat-card-subtitle *ngIf="!assignmentTransmis.rendu">A rendre pour le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
         <mat-card-content>
-            <p>Matière : {{assignmentTransmis.matiere.nom}}</p>
-            <p>Rendu par {{assignmentTransmis.auteur}}</p>
-            <p>Commentaire sur le devoir : {{assignmentTransmis.remarques}}</p>
+            <p class="input-box">Matière : {{assignmentTransmis.matiere.nom}}</p>
+            <p class="input-box">Rendu par {{assignmentTransmis.auteur}}</p>
+            <p class="input-box">Commentaire sur le devoir : {{assignmentTransmis.remarques}}</p>
             <p>Image de la matière</p>
-            <img mat-card-image src="assets/matieres/{{assignmentTransmis.matiere.imageMatiere}}" alt="Photo de la matière" class="custom-img"/>
+            <img  mat-card-image src="assets/matieres/{{assignmentTransmis.matiere.imageMatiere}}" alt="Photo de la matière" class="custom-img"/>
             <p>Image du professeur</p>
             <img mat-card-image src="assets/profs/{{assignmentTransmis.matiere.prof}}.png" alt="Photo du professeur de cette matière" class="custom-img"/>
 
         </mat-card-content>
         <mat-card-actions id="bottom">
             <mat-checkbox *ngIf="!assignmentTransmis.rendu" (click)="onAssignmentRendu()">Devoir rendu</mat-checkbox>
-            <button mat-raised-button color="primary" (click)="onClickEdit()" [disabled]="!isAdmin()">Editer</button>
-            <button mat-raised-button color="warn" (click)="onAssignmentDelete()" [disabled]="!isAdmin()">Supprimer devoir</button>
+            <button class="btn" (click)="onClickEdit()" [disabled]="!isAdmin()">Editer</button>
+            <button class="btn" (click)="onAssignmentDelete()" [disabled]="!isAdmin()">Supprimer devoir</button>
         </mat-card-actions>
     </mat-card>
 </div>
+</body>
