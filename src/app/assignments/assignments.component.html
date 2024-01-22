@@ -1,16 +1,19 @@
-<main class="container">
+<body>
+<main class="wrapper">
     <div>
-        <button mat-raised-button (click)="onPreviousPage()">Précédent</button>
-        <button mat-raised-button (click)="onNextPage()">Suivant</button>
+        <button class="btn" mat-raised-button (click)="onPreviousPage()">Précédent</button>
+        <span class="example-spacer1"></span>
+        <button class="btn" mat-raised-button (click)="onNextPage()">Suivant</button>
+        <span class="example-spacer1"></span>
         <p>Nombre d'éléments : {{totalDocs}}</p>
         <p>Page {{page}} sur {{totalPages}}</p>
-        <button mat-raised-button (click)="peuplerBD()">Peupler les assignments</button>
+        <button class="btn" mat-raised-button (click)="peuplerBD()">Peupler les assignments</button>
 
     </div>
 
-    <div class="ajouterBtn">
+    <div >
         <a routerLink="/add">
-            <button class="ajouterBtn" 
+            <button class="btn" 
                     mat-flat-button color="accent" 
             >
                 Ajouter Assignment
@@ -33,4 +36,4 @@
         </a></nav>
     </mat-list>
 </main>
-
+</body>

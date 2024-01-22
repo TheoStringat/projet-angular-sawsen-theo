@@ -18,9 +18,11 @@
 }
 
 .example-spacer {
-  flex: 0.9;
+  flex: 0.65;
 }
-
+.example-spacer1 {
+  flex: 0.2;
+}
 #ico_login,
 #ico_logout {
   margin-right: 10px;
