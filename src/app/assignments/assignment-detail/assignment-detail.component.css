@@ -4,9 +4,24 @@
     align-items: flex-end;
 }
 
+.prof-container, .matiere-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+.prof-container p, .matiere-container p {
+  margin-right: 100px; /* Espace entre le texte et l'image */
+}
+
 .custom-img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+
 }
 *{
     margin: 0;

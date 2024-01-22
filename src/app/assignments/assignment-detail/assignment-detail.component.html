@@ -2,18 +2,23 @@
 <div class="wrapper"> 
     <mat-card *ngIf="assignmentTransmis">
         
-        <mat-card-title>{{assignmentTransmis.nom}}</mat-card-title>
-        <mat-card-subtitle *ngIf="assignmentTransmis.rendu">Rendu le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
-        <mat-card-subtitle *ngIf="!assignmentTransmis.rendu">A rendre pour le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
+        <mat-card-title style="text-align: center;">{{assignmentTransmis.nom}}</mat-card-title>
+        <mat-card-subtitle style="text-align: center ;" *ngIf="assignmentTransmis.rendu">Rendu le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
+        <mat-card-subtitle style="text-align: center ;" *ngIf="!assignmentTransmis.rendu">A rendre pour le {{assignmentTransmis.dateDeRendu | date: 'dd/MM/yyyy'}}</mat-card-subtitle>
         <mat-card-content>
-            <p class="input-box">Matière : {{assignmentTransmis.matiere.nom}}</p>
-            <p class="input-box">Rendu par {{assignmentTransmis.auteur}}</p>
-            <p class="input-box">Commentaire sur le devoir : {{assignmentTransmis.remarques}}</p>
-            <p>Image de la matière</p>
-            <img  mat-card-image src="assets/matieres/{{assignmentTransmis.matiere.imageMatiere}}" alt="Photo de la matière" class="custom-img"/>
-            <p>Image du professeur</p>
-            <img mat-card-image src="assets/profs/{{assignmentTransmis.matiere.prof}}.png" alt="Photo du professeur de cette matière" class="custom-img"/>
 
+            <p style="font-weight: bold;" class="input-box">Matière : {{assignmentTransmis.matiere.nom}}</p>
+
+            <p style="font-weight: bold;" class="input-box">Rendu par : {{assignmentTransmis.auteur}}</p>
+            <p style="font-weight: bold;" class="input-box">Commentaire sur le devoir : {{assignmentTransmis.remarques}}</p>
+            <div class="matiere-container">
+                <p style="font-weight: bold;">Matière</p>
+                <img  mat-card-image src="assets/matieres/{{assignmentTransmis.matiere.imageMatiere}}" alt="Photo de la matière" class="custom-img"/>
+            </div>
+            <div class="prof-container">
+                <p style="font-weight: bold;">Professeur</p>
+                <img mat-card-image src="assets/profs/{{assignmentTransmis.matiere.prof}}.png" alt="Photo du professeur de cette matière" class="custom-img"/>
+            </div>
         </mat-card-content>
         <mat-card-actions id="bottom">
             <mat-checkbox *ngIf="!assignmentTransmis.rendu" (click)="onAssignmentRendu()">Devoir rendu</mat-checkbox>
