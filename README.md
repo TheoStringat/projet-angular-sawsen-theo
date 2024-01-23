@@ -36,7 +36,7 @@ auteurs
     - [ ] OPTIONNEL : Ajouter un champ de recherche sur le nom de l'assignment qui enverra une requête et affichera les résultats correspondants à la recherche. 
     - [ ] OPTIONNEL (mais simple à faire): utiliser un Formulaire de type Stepper (formulaire en plusieurs étapes) pour l'ajout d'Assignments (éventuellement pour la modification) 
 
-- [ ] Rendre le tout plus joli, essayez de ne pas tous faire la même chose. Je recommande une toolbar en haut, une sidebar sur le côté
+- [X] Rendre le tout plus joli, essayez de ne pas tous faire la même chose. Je recommande une toolbar en haut, une sidebar sur le côté
 
 - [ ] Hébergement sur Heroku.com ou render.com
 
