@@ -31,7 +31,7 @@ auteurs
     - [ ] OPTIONNEL : pour la pagination vous pouvez regarder pour utiliser le composant Paginator de angular material.
     - [ ] Regardez les tables avec datasource, c'est encore plus simple.
     - [X] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.
-    - [ ] Les formulaires d'ajout et de détails proposeront un choix fixe de matières (et associeront automatiquement le prof et l'image illustrant la matière) 
+    - [X] Les formulaires d'ajout et de détails proposeront un choix fixe de matières (et associeront automatiquement le prof et l'image illustrant la matière) 
     - [ ] OPTIONNEL : Ajouter un filtre rendu/non rendu : Selon que cette case est cochée ou pas le tableau affichera uniquement les assignments rendus ou non rendus. 
     - [ ] OPTIONNEL : Ajouter un champ de recherche sur le nom de l'assignment qui enverra une requête et affichera les résultats correspondants à la recherche. 
     - [ ] OPTIONNEL (mais simple à faire): utiliser un Formulaire de type Stepper (formulaire en plusieurs étapes) pour l'ajout d'Assignments (éventuellement pour la modification) 

@@ -21,19 +21,33 @@
         </a>
     </div>
 
-    <mat-list *ngFor="let assignment of assignments">
-        <nav><a routerLink="/assignment/{{assignment.id}}">
-            <h3 mat-subheader>{{assignment.dateDeRendu | date: 'dd/MM/yyyy'}}</h3>
-            <mat-list-item (click)="assignmentClique(assignment)">
-                <p appRendu *ngIf="assignment.rendu; else nonsoumis">
-                    Le devoir intitulé {{assignment.nom}} <br>A ETE RENDU le {{assignment.dateDeRendu}} <br>par {{assignment.auteur}}.
-                </p>
-                <ng-template #nonsoumis>
-                    Le devoir {{assignment.nom}}, <br>à rendre le {{assignment.dateDeRendu}} <br> par {{assignment.auteur}} N'A PAS ETE RENDU.
-                </ng-template>
-            </mat-list-item>
-            <mat-divider></mat-divider>
-        </a></nav>
-    </mat-list>
+    <table mat-table [dataSource]="assignments" class="mat-elevation-z8">
+        <ng-container matColumnDef="nom">
+            <th mat-header-cell *matHeaderCellDef> Nom </th>
+            <td mat-cell *matCellDef="let assignment"> {{assignment.nom}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="dateDeRendu">
+            <th mat-header-cell *matHeaderCellDef> Date de rendu </th>
+            <td mat-cell *matCellDef="let assignment"> {{assignment.dateDeRendu | date: 'dd/MM/yyyy'}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="auteur">
+            <th mat-header-cell *matHeaderCellDef> Auteur </th>
+            <td mat-cell *matCellDef="let assignment"> {{assignment.auteur}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="etat">
+            <mat-header-cell *matHeaderCellDef> État </mat-header-cell>
+            <mat-cell *matCellDef="let assignment">
+                <span *ngIf="assignment.rendu; else nonsoumis"> Rendu </span>
+                <ng-template #nonsoumis> Non Rendu </ng-template>
+            </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let assignment; columns: displayedColumns;" (click)="assignmentClique(assignment)"></mat-row>
+    </table>
+
 </main>
 </body>

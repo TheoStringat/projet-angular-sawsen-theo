@@ -29,6 +29,7 @@ export class AssignmentsComponent implements OnInit {
   assignmentSelectionne!: Assignment | null;
   formVisible = false;
   assignments!:Assignment[];
+  displayedColumns: string[] = ['dateDeRendu', 'nom', 'auteur', 'etat'];
 
   
 

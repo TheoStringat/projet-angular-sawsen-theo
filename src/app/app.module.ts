@@ -36,6 +36,8 @@ import { LogginComponent } from './loggin/loggin.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { MatTableModule } from '@angular/material/table';
+
 const routes: Routes = [
   // home page, ce qui sera affiché avec http://localhost:4200
   // ou http://localhost:4200/
@@ -79,7 +81,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     MatSlideToggleModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
