@@ -40,13 +40,18 @@
         <ng-container matColumnDef="etat">
             <mat-header-cell *matHeaderCellDef> État </mat-header-cell>
             <mat-cell *matCellDef="let assignment">
-                <span *ngIf="assignment.rendu; else nonsoumis"> Rendu </span>
-                <ng-template #nonsoumis> Non Rendu </ng-template>
-            </mat-cell>
+                <span *ngIf="assignment.rendu; else nonsoumis" class="rendu"> Rendu </span>
+                <ng-template #nonsoumis><span class="non-rendu"> Non Rendu </span></ng-template>
+            </mat-cell>            
         </ng-container>
 
-        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-        <mat-row *matRowDef="let assignment; columns: displayedColumns;" (click)="assignmentClique(assignment)"></mat-row>
+        <mat-header-row *matHeaderRowDef="displayedColumns">
+        </mat-header-row>
+        <mat-row *matRowDef="let assignment; columns: displayedColumns;" 
+                (click)="assignmentClique(assignment)" 
+                class="mat-row">   
+        </mat-row>
+
     </table>
 
 </main>

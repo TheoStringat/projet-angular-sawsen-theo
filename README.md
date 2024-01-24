@@ -21,13 +21,13 @@ auteurs
     - [X] Auteur (nom de l'élève)
     - [X] Matière (Base de données, Technologies Web, Grails, etc.)
     - [X] Une image sera associée à chaque matière et une photo du prof
-    - [X] Note sur 20, on ne peut marquer "rendu" un Assignment qui n'a pas été noté
+    - [] Note sur 20, on ne peut marquer "rendu" un Assignment qui n'a pas été noté
     - [X] Remarques sur l'assignment 
     - [X] APPROCHE FACILE : on ajoute des propriétés au modèle des Assignments (dans le front-end et dans le back-end). On n'ajoute pas de nouvelle collection à la base de données. C'est ce que je recommande pour la plupart d'entre vous.
     - [ ] APPROCHE AVANCEE : vous ajoutez une collection "matières" et/ou "élève" mais évidemment cela impactera plus le back end et cela représente beaucoup de travail par rapport au reste de ce qui est demandé, c'est donc une solution optionnelle pour les meilleurs d'entre vous.
 
 - [ ] : Améliorer l'affichage des Assignments
-    - [ ] Vous afficherez les assignments dans une table angular material. A vous de voir si vous arrivez à la rendre triable, avec ligne des headers fixe (qui ne scrolle pas), avec la pagination. Ajoutez un moyen pour avoir une vue de détail sur un assignment.
+    - [X] Vous afficherez les assignments dans une table angular material. A vous de voir si vous arrivez à la rendre triable, avec ligne des headers fixe (qui ne scrolle pas), avec la pagination. Ajoutez un moyen pour avoir une vue de détail sur un assignment.
     - [ ] OPTIONNEL : pour la pagination vous pouvez regarder pour utiliser le composant Paginator de angular material.
     - [ ] Regardez les tables avec datasource, c'est encore plus simple.
     - [X] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.

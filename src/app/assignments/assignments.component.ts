@@ -1,6 +1,7 @@
 import { Component, OnInit, } from '@angular/core';
 import { Assignment } from './assignment.model';
 import { AssignmentsService } from '../shared/assignments.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-assignments',
@@ -33,7 +34,8 @@ export class AssignmentsComponent implements OnInit {
 
   
 
-  constructor(private assignmentService:AssignmentsService) { }
+  constructor(private assignmentService:AssignmentsService,
+              private router:Router) { }
 
   
   ngOnInit(): void {
@@ -64,6 +66,7 @@ export class AssignmentsComponent implements OnInit {
 
   assignmentClique(assignment: Assignment) {
     this.assignmentSelectionne = assignment;
+    this.router.navigate(['/assignment', assignment.id]);
   }
 
   onAddAssignmentBtnClick() {

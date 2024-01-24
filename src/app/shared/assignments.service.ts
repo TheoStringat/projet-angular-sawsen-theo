@@ -75,7 +75,8 @@ export class AssignmentsService {
       nouvelAssignment.rendu = a.rendu;
       nouvelAssignment.auteur = a.auteur;
       nouvelAssignment.remarques = a.remarques;
-      nouvelAssignment._id = a._id.$oid;
+      nouvelAssignment.note = a.note;
+      nouvelAssignment._id = a._id;
  
       this.addAssignment(nouvelAssignment)
       .subscribe(reponse => {

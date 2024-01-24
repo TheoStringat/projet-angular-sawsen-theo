@@ -9,7 +9,11 @@
 
             <p style="font-weight: bold;" class="input-box">Matière : {{assignmentTransmis.matiere.nom}}</p>
 
-            <p style="font-weight: bold;" class="input-box">Rendu par : {{assignmentTransmis.auteur}}</p>
+            <!-- on affiche une balise en fonction du rendu du devoir -->
+            <p *ngIf="assignmentTransmis.rendu" style="font-weight: bold;" class="input-box">Rendu par : {{assignmentTransmis.auteur}}</p>
+            <p *ngIf="!assignmentTransmis.rendu" style="font-weight: bold;" class="input-box">A rendre par : {{assignmentTransmis.auteur}}</p>
+
+            <p *ngIf="assignmentTransmis.note != 99" style="font-weight: bold;" class="input-box">Note : {{assignmentTransmis.note}}/20</p>
             <p style="font-weight: bold;" class="input-box">Commentaire sur le devoir : {{assignmentTransmis.remarques}}</p>
             <div class="matiere-container">
                 <p style="font-weight: bold;">Matière</p>
