@@ -15,8 +15,8 @@ const uri = "mongodb+srv://theostringat2:passmongo@cluster0.vs5qkld.mongodb.net/
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndModify:false
-};
+  //useFindAndModify:false
+}; 
 
 mongoose.connect(uri, options)
   .then(() => {
