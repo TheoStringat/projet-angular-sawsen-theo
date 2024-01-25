@@ -7,7 +7,7 @@ const bdInitialAssignments = [
      "auteur": "Vanessa Burgh",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 1
     },
     {
@@ -18,7 +18,7 @@ const bdInitialAssignments = [
      "auteur": "Ogdan Ferras",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 2
     },
     {
@@ -40,7 +40,7 @@ const bdInitialAssignments = [
      "auteur": "Lisle Truelove",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 4
     },
     {
@@ -73,7 +73,7 @@ const bdInitialAssignments = [
      "auteur": "Gussi O'Heagertie",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 7
     },
     {
@@ -95,7 +95,7 @@ const bdInitialAssignments = [
      "auteur": "Marty Poupard",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 9
     },
     {
@@ -106,7 +106,7 @@ const bdInitialAssignments = [
      "auteur": "Orlando O'Mailey",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 10
     },
     {
@@ -117,7 +117,7 @@ const bdInitialAssignments = [
      "auteur": "Dillon Thomsson",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 11
     },
     {
@@ -139,7 +139,7 @@ const bdInitialAssignments = [
      "auteur": "Teirtza Visick",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 13
     },
     {
@@ -161,7 +161,7 @@ const bdInitialAssignments = [
      "auteur": "Arley Skeleton",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 15
     },
     {
@@ -194,7 +194,7 @@ const bdInitialAssignments = [
      "auteur": "Jessie Abramino",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 18
     },
     {
@@ -249,7 +249,7 @@ const bdInitialAssignments = [
      "auteur": "Lamar Weinberg",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 23
     },
     {
@@ -260,7 +260,7 @@ const bdInitialAssignments = [
      "auteur": "Latisha McGlaughn",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 24
     },
     {
@@ -271,7 +271,7 @@ const bdInitialAssignments = [
      "auteur": "Ambrose Boothman",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 25
     },
     {
@@ -315,7 +315,7 @@ const bdInitialAssignments = [
      "auteur": "Gearalt Gammack",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 29
     },
     {
@@ -337,7 +337,7 @@ const bdInitialAssignments = [
      "auteur": "Darn de Chastelain",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 31
     },
     {
@@ -359,7 +359,7 @@ const bdInitialAssignments = [
      "auteur": "Alverta Swaine",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 33
     },
     {
@@ -381,7 +381,7 @@ const bdInitialAssignments = [
      "auteur": "Ram Pollett",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 35
     },
     {
@@ -403,7 +403,7 @@ const bdInitialAssignments = [
      "auteur": "Ernaline Jandak",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 37
     },
     {
@@ -414,7 +414,7 @@ const bdInitialAssignments = [
      "auteur": "Poppy Goozee",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 38
     },
     {
@@ -436,7 +436,7 @@ const bdInitialAssignments = [
      "auteur": "Maxine Ryam",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 40
     },
     {
@@ -458,7 +458,7 @@ const bdInitialAssignments = [
      "auteur": "Fernanda Symms",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 42
     },
     {
@@ -480,7 +480,7 @@ const bdInitialAssignments = [
      "auteur": "Tabbi Northing",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 44
     },
     {
@@ -491,7 +491,7 @@ const bdInitialAssignments = [
      "auteur": "Marylin Porker",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 45
     },
     {
@@ -513,7 +513,7 @@ const bdInitialAssignments = [
      "auteur": "Raimundo Sewill",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 47
     },
     {
@@ -535,7 +535,7 @@ const bdInitialAssignments = [
      "auteur": "Annette Shovelbottom",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 49
     },
     {
@@ -546,7 +546,7 @@ const bdInitialAssignments = [
      "auteur": "Lilah Gartell",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 50
     },
     {
@@ -601,7 +601,7 @@ const bdInitialAssignments = [
      "auteur": "Konstanze Staunton",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 55
     },
     {
@@ -634,7 +634,7 @@ const bdInitialAssignments = [
      "auteur": "Konstantin Margach",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 58
     },
     {
@@ -656,7 +656,7 @@ const bdInitialAssignments = [
      "auteur": "Tamma Vail",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 60
     },
     {
@@ -667,7 +667,7 @@ const bdInitialAssignments = [
      "auteur": "Jilli Hallyburton",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 61
     },
     {
@@ -678,7 +678,7 @@ const bdInitialAssignments = [
      "auteur": "Joby Carhart",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 62
     },
     {
@@ -689,7 +689,7 @@ const bdInitialAssignments = [
      "auteur": "Tersina Dach",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 63
     },
     {
@@ -700,7 +700,7 @@ const bdInitialAssignments = [
      "auteur": "Danella Pleavin",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 64
     },
     {
@@ -711,7 +711,7 @@ const bdInitialAssignments = [
      "auteur": "Katti McGiffin",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 65
     },
     {
@@ -722,7 +722,7 @@ const bdInitialAssignments = [
      "auteur": "Robb Madders",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 66
     },
     {
@@ -744,7 +744,7 @@ const bdInitialAssignments = [
      "auteur": "Marie Annwyl",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 68
     },
     {
@@ -755,7 +755,7 @@ const bdInitialAssignments = [
      "auteur": "Cybil Bowerman",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 69
     },
     {
@@ -777,7 +777,7 @@ const bdInitialAssignments = [
      "auteur": "Dayle Dobbyn",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 71
     },
     {
@@ -788,7 +788,7 @@ const bdInitialAssignments = [
      "auteur": "Cris Yearnsley",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 72
     },
     {
@@ -810,7 +810,7 @@ const bdInitialAssignments = [
      "auteur": "Claude Roarty",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 74
     },
     {
@@ -821,7 +821,7 @@ const bdInitialAssignments = [
      "auteur": "Lawry Seczyk",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 75
     },
     {
@@ -843,7 +843,7 @@ const bdInitialAssignments = [
      "auteur": "Margret Piggot",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 77
     },
     {
@@ -854,7 +854,7 @@ const bdInitialAssignments = [
      "auteur": "Trude Holleworth",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 78
     },
     {
@@ -909,7 +909,7 @@ const bdInitialAssignments = [
      "auteur": "Cherie Racine",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 83
     },
     {
@@ -931,7 +931,7 @@ const bdInitialAssignments = [
      "auteur": "Emlen Collishaw",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 85
     },
     {
@@ -953,7 +953,7 @@ const bdInitialAssignments = [
      "auteur": "Illa Wenban",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 87
     },
     {
@@ -964,7 +964,7 @@ const bdInitialAssignments = [
      "auteur": "Morgun Panting",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 88
     },
     {
@@ -975,7 +975,7 @@ const bdInitialAssignments = [
      "auteur": "Karil Meere",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 89
     },
     {
@@ -986,7 +986,7 @@ const bdInitialAssignments = [
      "auteur": "Valencia Waslin",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 90
     },
     {
@@ -1008,7 +1008,7 @@ const bdInitialAssignments = [
      "auteur": "Jerald Germon",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 92
     },
     {
@@ -1052,7 +1052,7 @@ const bdInitialAssignments = [
      "auteur": "Lorenza Livsey",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 96
     },
     {
@@ -1063,7 +1063,7 @@ const bdInitialAssignments = [
      "auteur": "Josh Domange",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 97
     },
     {
@@ -1085,7 +1085,7 @@ const bdInitialAssignments = [
      "auteur": "Fionna Kingett",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 99
     },
     {
@@ -1107,7 +1107,7 @@ const bdInitialAssignments = [
      "auteur": "Lynn Kayzer",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 101
     },
     {
@@ -1151,7 +1151,7 @@ const bdInitialAssignments = [
      "auteur": "Alexandr Guitt",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 105
     },
     {
@@ -1162,7 +1162,7 @@ const bdInitialAssignments = [
      "auteur": "Rahal Brind",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 106
     },
     {
@@ -1173,7 +1173,7 @@ const bdInitialAssignments = [
      "auteur": "Melicent Bessey",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 107
     },
     {
@@ -1206,7 +1206,7 @@ const bdInitialAssignments = [
      "auteur": "Minta Abate",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 110
     },
     {
@@ -1217,7 +1217,7 @@ const bdInitialAssignments = [
      "auteur": "Moria Vondruska",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 111
     },
     {
@@ -1239,7 +1239,7 @@ const bdInitialAssignments = [
      "auteur": "Candie Jindra",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 113
     },
     {
@@ -1250,7 +1250,7 @@ const bdInitialAssignments = [
      "auteur": "Kalinda Bee",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 114
     },
     {
@@ -1272,7 +1272,7 @@ const bdInitialAssignments = [
      "auteur": "Sayers Yallowley",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 116
     },
     {
@@ -1316,7 +1316,7 @@ const bdInitialAssignments = [
      "auteur": "Berrie Janauschek",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 120
     },
     {
@@ -1327,7 +1327,7 @@ const bdInitialAssignments = [
      "auteur": "Quinn Dorracott",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 121
     },
     {
@@ -1338,7 +1338,7 @@ const bdInitialAssignments = [
      "auteur": "Allistir Redd",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 122
     },
     {
@@ -1349,7 +1349,7 @@ const bdInitialAssignments = [
      "auteur": "Anneliese Probbings",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 123
     },
     {
@@ -1360,7 +1360,7 @@ const bdInitialAssignments = [
      "auteur": "Cathi Escoffier",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 124
     },
     {
@@ -1382,7 +1382,7 @@ const bdInitialAssignments = [
      "auteur": "Martin Joust",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 126
     },
     {
@@ -1415,7 +1415,7 @@ const bdInitialAssignments = [
      "auteur": "Ara Pena",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 129
     },
     {
@@ -1437,7 +1437,7 @@ const bdInitialAssignments = [
      "auteur": "Jamison Corpes",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 131
     },
     {
@@ -1459,7 +1459,7 @@ const bdInitialAssignments = [
      "auteur": "Nona Suthworth",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 133
     },
     {
@@ -1492,7 +1492,7 @@ const bdInitialAssignments = [
      "auteur": "Ariel Sellick",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 136
     },
     {
@@ -1503,7 +1503,7 @@ const bdInitialAssignments = [
      "auteur": "Livia Dallicoat",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 137
     },
     {
@@ -1514,7 +1514,7 @@ const bdInitialAssignments = [
      "auteur": "Portie Hovington",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 138
     },
     {
@@ -1525,7 +1525,7 @@ const bdInitialAssignments = [
      "auteur": "Elliot Gallaher",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 139
     },
     {
@@ -1547,7 +1547,7 @@ const bdInitialAssignments = [
      "auteur": "Gerry Smickle",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 141
     },
     {
@@ -1558,7 +1558,7 @@ const bdInitialAssignments = [
      "auteur": "Eadmund MacGorley",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 142
     },
     {
@@ -1580,7 +1580,7 @@ const bdInitialAssignments = [
      "auteur": "Ruthi Von Welden",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 144
     },
     {
@@ -1624,7 +1624,7 @@ const bdInitialAssignments = [
      "auteur": "Collin Mathieu",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 148
     },
     {
@@ -1668,7 +1668,7 @@ const bdInitialAssignments = [
      "auteur": "Mariele MacQuist",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 152
     },
     {
@@ -1679,7 +1679,7 @@ const bdInitialAssignments = [
      "auteur": "Rhonda Annand",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 153
     },
     {
@@ -1690,7 +1690,7 @@ const bdInitialAssignments = [
      "auteur": "Arthur Stoven",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 154
     },
     {
@@ -1712,7 +1712,7 @@ const bdInitialAssignments = [
      "auteur": "Les Stow",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 156
     },
     {
@@ -1723,7 +1723,7 @@ const bdInitialAssignments = [
      "auteur": "Mitchell Brewin",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 157
     },
     {
@@ -1756,7 +1756,7 @@ const bdInitialAssignments = [
      "auteur": "Betsy Amott",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 160
     },
     {
@@ -1767,7 +1767,7 @@ const bdInitialAssignments = [
      "auteur": "Davon Hearse",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 161
     },
     {
@@ -1800,7 +1800,7 @@ const bdInitialAssignments = [
      "auteur": "Ernst Woodings",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 164
     },
     {
@@ -1833,7 +1833,7 @@ const bdInitialAssignments = [
      "auteur": "Malinda Parysowna",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 167
     },
     {
@@ -1844,7 +1844,7 @@ const bdInitialAssignments = [
      "auteur": "Anissa Fancy",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 168
     },
     {
@@ -1866,7 +1866,7 @@ const bdInitialAssignments = [
      "auteur": "Adrianne Andrysiak",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 170
     },
     {
@@ -1877,7 +1877,7 @@ const bdInitialAssignments = [
      "auteur": "Brynne Andrez",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 171
     },
     {
@@ -1899,7 +1899,7 @@ const bdInitialAssignments = [
      "auteur": "Kelcey Zecchinelli",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 173
     },
     {
@@ -1932,7 +1932,7 @@ const bdInitialAssignments = [
      "auteur": "Trenton Atwood",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 176
     },
     {
@@ -1954,7 +1954,7 @@ const bdInitialAssignments = [
      "auteur": "Alyssa Fairnington",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 178
     },
     {
@@ -1976,7 +1976,7 @@ const bdInitialAssignments = [
      "auteur": "Nahum Gerrans",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 180
     },
     {
@@ -1998,7 +1998,7 @@ const bdInitialAssignments = [
      "auteur": "Lauralee Schohier",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 182
     },
     {
@@ -2020,7 +2020,7 @@ const bdInitialAssignments = [
      "auteur": "Stacia Wetwood",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 184
     },
     {
@@ -2042,7 +2042,7 @@ const bdInitialAssignments = [
      "auteur": "Nina Aspray",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 186
     },
     {
@@ -2053,7 +2053,7 @@ const bdInitialAssignments = [
      "auteur": "Benedikt Blaymires",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 187
     },
     {
@@ -2064,7 +2064,7 @@ const bdInitialAssignments = [
      "auteur": "Juditha Gillaspy",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 188
     },
     {
@@ -2075,7 +2075,7 @@ const bdInitialAssignments = [
      "auteur": "Sheri Bursnell",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 189
     },
     {
@@ -2108,7 +2108,7 @@ const bdInitialAssignments = [
      "auteur": "Nataline Pinckard",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 192
     },
     {
@@ -2119,7 +2119,7 @@ const bdInitialAssignments = [
      "auteur": "Agna Wolstenholme",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 193
     },
     {
@@ -2141,7 +2141,7 @@ const bdInitialAssignments = [
      "auteur": "Corene Massy",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 195
     },
     {
@@ -2152,7 +2152,7 @@ const bdInitialAssignments = [
      "auteur": "Kamillah Younge",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 196
     },
     {
@@ -2163,7 +2163,7 @@ const bdInitialAssignments = [
      "auteur": "Keenan de Chastelain",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 197
     },
     {
@@ -2174,7 +2174,7 @@ const bdInitialAssignments = [
      "auteur": "Isaiah O'Donegan",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 198
     },
     {
@@ -2185,7 +2185,7 @@ const bdInitialAssignments = [
      "auteur": "Karyl Grolle",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 199
     },
     {
@@ -2196,7 +2196,7 @@ const bdInitialAssignments = [
      "auteur": "Bambie Sorsbie",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 200
     },
     {
@@ -2218,7 +2218,7 @@ const bdInitialAssignments = [
      "auteur": "Jerrilee McKendry",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 202
     },
     {
@@ -2240,7 +2240,7 @@ const bdInitialAssignments = [
      "auteur": "Charil Salmons",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 204
     },
     {
@@ -2251,7 +2251,7 @@ const bdInitialAssignments = [
      "auteur": "Ursuline Guerreau",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 205
     },
     {
@@ -2273,7 +2273,7 @@ const bdInitialAssignments = [
      "auteur": "Gib Devonshire",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 207
     },
     {
@@ -2284,7 +2284,7 @@ const bdInitialAssignments = [
      "auteur": "Rudie Bunyan",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 208
     },
     {
@@ -2295,7 +2295,7 @@ const bdInitialAssignments = [
      "auteur": "Marta Anmore",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 209
     },
     {
@@ -2328,7 +2328,7 @@ const bdInitialAssignments = [
      "auteur": "Monro Arminger",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 212
     },
     {
@@ -2350,7 +2350,7 @@ const bdInitialAssignments = [
      "auteur": "Nobie Vedntyev",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 214
     },
     {
@@ -2372,7 +2372,7 @@ const bdInitialAssignments = [
      "auteur": "Roxi Lenthall",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 216
     },
     {
@@ -2383,7 +2383,7 @@ const bdInitialAssignments = [
      "auteur": "Dante McGill",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 217
     },
     {
@@ -2438,7 +2438,7 @@ const bdInitialAssignments = [
      "auteur": "Sapphire Slayny",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 222
     },
     {
@@ -2471,7 +2471,7 @@ const bdInitialAssignments = [
      "auteur": "Lyon Matuskiewicz",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 225
     },
     {
@@ -2482,7 +2482,7 @@ const bdInitialAssignments = [
      "auteur": "Gunilla Jennins",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 226
     },
     {
@@ -2504,7 +2504,7 @@ const bdInitialAssignments = [
      "auteur": "Prue Keyser",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 228
     },
     {
@@ -2515,7 +2515,7 @@ const bdInitialAssignments = [
      "auteur": "Ibrahim Brew",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 229
     },
     {
@@ -2526,7 +2526,7 @@ const bdInitialAssignments = [
      "auteur": "Lucille Phebey",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 230
     },
     {
@@ -2537,7 +2537,7 @@ const bdInitialAssignments = [
      "auteur": "Christoforo Laye",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 231
     },
     {
@@ -2548,7 +2548,7 @@ const bdInitialAssignments = [
      "auteur": "Tish Brazel",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 232
     },
     {
@@ -2559,7 +2559,7 @@ const bdInitialAssignments = [
      "auteur": "Jehu La Batie",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 233
     },
     {
@@ -2570,7 +2570,7 @@ const bdInitialAssignments = [
      "auteur": "Hope Plows",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 234
     },
     {
@@ -2636,7 +2636,7 @@ const bdInitialAssignments = [
      "auteur": "Henryetta Crigin",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 240
     },
     {
@@ -2647,7 +2647,7 @@ const bdInitialAssignments = [
      "auteur": "Lucilia Deveril",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 241
     },
     {
@@ -2658,7 +2658,7 @@ const bdInitialAssignments = [
      "auteur": "Berne Enterlein",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 242
     },
     {
@@ -2680,7 +2680,7 @@ const bdInitialAssignments = [
      "auteur": "Adelina Berge",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 244
     },
     {
@@ -2735,7 +2735,7 @@ const bdInitialAssignments = [
      "auteur": "Hillel Wendover",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 249
     },
     {
@@ -2768,7 +2768,7 @@ const bdInitialAssignments = [
      "auteur": "Darcie Pirie",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 252
     },
     {
@@ -2790,7 +2790,7 @@ const bdInitialAssignments = [
      "auteur": "Alexandra Shoulders",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 254
     },
     {
@@ -2801,7 +2801,7 @@ const bdInitialAssignments = [
      "auteur": "Sile Peele",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 255
     },
     {
@@ -2845,7 +2845,7 @@ const bdInitialAssignments = [
      "auteur": "Nata Jacobovitz",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 259
     },
     {
@@ -2856,7 +2856,7 @@ const bdInitialAssignments = [
      "auteur": "Darnall Dedham",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 260
     },
     {
@@ -2878,7 +2878,7 @@ const bdInitialAssignments = [
      "auteur": "Estel Reimer",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 262
     },
     {
@@ -2889,7 +2889,7 @@ const bdInitialAssignments = [
      "auteur": "Lilias Deble",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 263
     },
     {
@@ -2900,7 +2900,7 @@ const bdInitialAssignments = [
      "auteur": "Annamaria Bath",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 264
     },
     {
@@ -2911,7 +2911,7 @@ const bdInitialAssignments = [
      "auteur": "Wally Crimp",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 265
     },
     {
@@ -2922,7 +2922,7 @@ const bdInitialAssignments = [
      "auteur": "Celestyn Colgan",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 266
     },
     {
@@ -3010,7 +3010,7 @@ const bdInitialAssignments = [
      "auteur": "Talbot Ryson",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 274
     },
     {
@@ -3021,7 +3021,7 @@ const bdInitialAssignments = [
      "auteur": "Troy Bardsley",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 275
     },
     {
@@ -3032,7 +3032,7 @@ const bdInitialAssignments = [
      "auteur": "Dorey Schwartz",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 276
     },
     {
@@ -3065,7 +3065,7 @@ const bdInitialAssignments = [
      "auteur": "Maiga Dempster",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 279
     },
     {
@@ -3131,7 +3131,7 @@ const bdInitialAssignments = [
      "auteur": "Von Provost",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 285
     },
     {
@@ -3142,7 +3142,7 @@ const bdInitialAssignments = [
      "auteur": "Rachele Dullard",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 286
     },
     {
@@ -3175,7 +3175,7 @@ const bdInitialAssignments = [
      "auteur": "Auria Ettels",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 289
     },
     {
@@ -3186,7 +3186,7 @@ const bdInitialAssignments = [
      "auteur": "Ivan Tarrant",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 290
     },
     {
@@ -3208,7 +3208,7 @@ const bdInitialAssignments = [
      "auteur": "Gabrielle Kleingrub",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 292
     },
     {
@@ -3219,7 +3219,7 @@ const bdInitialAssignments = [
      "auteur": "Mohammed Shirer",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 293
     },
     {
@@ -3230,7 +3230,7 @@ const bdInitialAssignments = [
      "auteur": "Rea Anthonies",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 294
     },
     {
@@ -3252,7 +3252,7 @@ const bdInitialAssignments = [
      "auteur": "Aile Castelletti",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 296
     },
     {
@@ -3263,7 +3263,7 @@ const bdInitialAssignments = [
      "auteur": "Cobb Pinnere",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 297
     },
     {
@@ -3285,7 +3285,7 @@ const bdInitialAssignments = [
      "auteur": "Worden Scardefield",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 299
     },
     {
@@ -3307,7 +3307,7 @@ const bdInitialAssignments = [
      "auteur": "Brig Pimlett",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 301
     },
     {
@@ -3362,7 +3362,7 @@ const bdInitialAssignments = [
      "auteur": "Mahmoud Scholfield",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 306
     },
     {
@@ -3406,7 +3406,7 @@ const bdInitialAssignments = [
      "auteur": "Marty Vreiberg",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 310
     },
     {
@@ -3417,7 +3417,7 @@ const bdInitialAssignments = [
      "auteur": "Cordelia Parram",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 311
     },
     {
@@ -3439,7 +3439,7 @@ const bdInitialAssignments = [
      "auteur": "Cass Finlow",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 313
     },
     {
@@ -3450,7 +3450,7 @@ const bdInitialAssignments = [
      "auteur": "Leonie Stanner",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 314
     },
     {
@@ -3483,7 +3483,7 @@ const bdInitialAssignments = [
      "auteur": "Eryn Steere",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 317
     },
     {
@@ -3494,7 +3494,7 @@ const bdInitialAssignments = [
      "auteur": "Sarah Dunster",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 318
     },
     {
@@ -3505,7 +3505,7 @@ const bdInitialAssignments = [
      "auteur": "Darnall Glasner",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 319
     },
     {
@@ -3516,7 +3516,7 @@ const bdInitialAssignments = [
      "auteur": "Elaina Philippon",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 320
     },
     {
@@ -3549,7 +3549,7 @@ const bdInitialAssignments = [
      "auteur": "Guy Muldowney",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 323
     },
     {
@@ -3615,7 +3615,7 @@ const bdInitialAssignments = [
      "auteur": "Nicol Edensor",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 329
     },
     {
@@ -3637,7 +3637,7 @@ const bdInitialAssignments = [
      "auteur": "Winnah Ruddiman",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 331
     },
     {
@@ -3648,7 +3648,7 @@ const bdInitialAssignments = [
      "auteur": "Ulrick Laughlan",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 332
     },
     {
@@ -3670,7 +3670,7 @@ const bdInitialAssignments = [
      "auteur": "Margarita Ommundsen",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 334
     },
     {
@@ -3681,7 +3681,7 @@ const bdInitialAssignments = [
      "auteur": "Maxine Waycot",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 335
     },
     {
@@ -3692,7 +3692,7 @@ const bdInitialAssignments = [
      "auteur": "Jenna Leopard",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 336
     },
     {
@@ -3725,7 +3725,7 @@ const bdInitialAssignments = [
      "auteur": "Heida Kerswell",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 339
     },
     {
@@ -3758,7 +3758,7 @@ const bdInitialAssignments = [
      "auteur": "Dukey Drain",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 342
     },
     {
@@ -3769,7 +3769,7 @@ const bdInitialAssignments = [
      "auteur": "Tonie Cothey",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 343
     },
     {
@@ -3813,7 +3813,7 @@ const bdInitialAssignments = [
      "auteur": "Mitch Pennyman",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 347
     },
     {
@@ -3824,7 +3824,7 @@ const bdInitialAssignments = [
      "auteur": "Calley Blackadder",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 348
     },
     {
@@ -3868,7 +3868,7 @@ const bdInitialAssignments = [
      "auteur": "Mabelle Greenhouse",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 352
     },
     {
@@ -3879,7 +3879,7 @@ const bdInitialAssignments = [
      "auteur": "Weylin Vlach",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 353
     },
     {
@@ -3912,7 +3912,7 @@ const bdInitialAssignments = [
      "auteur": "Kerrie Melan",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 356
     },
     {
@@ -3956,7 +3956,7 @@ const bdInitialAssignments = [
      "auteur": "Alikee Mithan",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 360
     },
     {
@@ -3967,7 +3967,7 @@ const bdInitialAssignments = [
      "auteur": "Suki Ogglebie",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 361
     },
     {
@@ -3989,7 +3989,7 @@ const bdInitialAssignments = [
      "auteur": "Basia Maunders",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 363
     },
     {
@@ -4000,7 +4000,7 @@ const bdInitialAssignments = [
      "auteur": "Lotty Lambricht",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 364
     },
     {
@@ -4022,7 +4022,7 @@ const bdInitialAssignments = [
      "auteur": "Amerigo Cella",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 366
     },
     {
@@ -4033,7 +4033,7 @@ const bdInitialAssignments = [
      "auteur": "Joanie Bushel",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 367
     },
     {
@@ -4044,7 +4044,7 @@ const bdInitialAssignments = [
      "auteur": "Bekki Godleman",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 368
     },
     {
@@ -4066,7 +4066,7 @@ const bdInitialAssignments = [
      "auteur": "Adelbert Bassingham",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 370
     },
     {
@@ -4110,7 +4110,7 @@ const bdInitialAssignments = [
      "auteur": "Katharine Seppey",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 374
     },
     {
@@ -4132,7 +4132,7 @@ const bdInitialAssignments = [
      "auteur": "Barnabas Odegaard",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 376
     },
     {
@@ -4154,7 +4154,7 @@ const bdInitialAssignments = [
      "auteur": "Dannye Pleavin",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 378
     },
     {
@@ -4176,7 +4176,7 @@ const bdInitialAssignments = [
      "auteur": "Mitchel Vennart",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 380
     },
     {
@@ -4209,7 +4209,7 @@ const bdInitialAssignments = [
      "auteur": "Townsend Lauchlan",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 383
     },
     {
@@ -4220,7 +4220,7 @@ const bdInitialAssignments = [
      "auteur": "Johnnie Battaille",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 384
     },
     {
@@ -4231,7 +4231,7 @@ const bdInitialAssignments = [
      "auteur": "Ruggiero Demaid",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 385
     },
     {
@@ -4242,7 +4242,7 @@ const bdInitialAssignments = [
      "auteur": "Artemas Emmett",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 386
     },
     {
@@ -4253,7 +4253,7 @@ const bdInitialAssignments = [
      "auteur": "Clarance Ingolotti",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 387
     },
     {
@@ -4264,7 +4264,7 @@ const bdInitialAssignments = [
      "auteur": "Hortensia Joscelyn",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 388
     },
     {
@@ -4275,7 +4275,7 @@ const bdInitialAssignments = [
      "auteur": "Teddie Scallon",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 389
     },
     {
@@ -4286,7 +4286,7 @@ const bdInitialAssignments = [
      "auteur": "Nealson Capner",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 390
     },
     {
@@ -4308,7 +4308,7 @@ const bdInitialAssignments = [
      "auteur": "Holmes Crocroft",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 392
     },
     {
@@ -4319,7 +4319,7 @@ const bdInitialAssignments = [
      "auteur": "Rose Klimas",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 393
     },
     {
@@ -4341,7 +4341,7 @@ const bdInitialAssignments = [
      "auteur": "Page Lobell",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 395
     },
     {
@@ -4363,7 +4363,7 @@ const bdInitialAssignments = [
      "auteur": "Octavius Dainty",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 397
     },
     {
@@ -4385,7 +4385,7 @@ const bdInitialAssignments = [
      "auteur": "Maible O'Hingerty",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 399
     },
     {
@@ -4396,7 +4396,7 @@ const bdInitialAssignments = [
      "auteur": "Abagael Caldron",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 400
     },
     {
@@ -4407,7 +4407,7 @@ const bdInitialAssignments = [
      "auteur": "Mavis Shackel",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 401
     },
     {
@@ -4418,7 +4418,7 @@ const bdInitialAssignments = [
      "auteur": "Chloette Cufflin",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 402
     },
     {
@@ -4429,7 +4429,7 @@ const bdInitialAssignments = [
      "auteur": "Devy Ismirnioglou",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 403
     },
     {
@@ -4451,7 +4451,7 @@ const bdInitialAssignments = [
      "auteur": "Guthry Knox",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 405
     },
     {
@@ -4506,7 +4506,7 @@ const bdInitialAssignments = [
      "auteur": "Esme Dix",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 410
     },
     {
@@ -4517,7 +4517,7 @@ const bdInitialAssignments = [
      "auteur": "Emalee Stollsteiner",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 411
     },
     {
@@ -4561,7 +4561,7 @@ const bdInitialAssignments = [
      "auteur": "Linoel Whittle",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 415
     },
     {
@@ -4572,7 +4572,7 @@ const bdInitialAssignments = [
      "auteur": "Muhammad Liddell",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 416
     },
     {
@@ -4594,7 +4594,7 @@ const bdInitialAssignments = [
      "auteur": "Timmie Dadd",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 418
     },
     {
@@ -4605,7 +4605,7 @@ const bdInitialAssignments = [
      "auteur": "Shaylah Bedder",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 419
     },
     {
@@ -4616,7 +4616,7 @@ const bdInitialAssignments = [
      "auteur": "Tammara Karleman",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 420
     },
     {
@@ -4627,7 +4627,7 @@ const bdInitialAssignments = [
      "auteur": "Harman Curling",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 421
     },
     {
@@ -4638,7 +4638,7 @@ const bdInitialAssignments = [
      "auteur": "Vere Gethen",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 422
     },
     {
@@ -4649,7 +4649,7 @@ const bdInitialAssignments = [
      "auteur": "Lula Longbothom",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 423
     },
     {
@@ -4660,7 +4660,7 @@ const bdInitialAssignments = [
      "auteur": "Tim Huckle",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 424
     },
     {
@@ -4737,7 +4737,7 @@ const bdInitialAssignments = [
      "auteur": "Arabela Meegin",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 431
     },
     {
@@ -4770,7 +4770,7 @@ const bdInitialAssignments = [
      "auteur": "Jimmie Loraine",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 434
     },
     {
@@ -4825,7 +4825,7 @@ const bdInitialAssignments = [
      "auteur": "Yves McJerrow",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 439
     },
     {
@@ -4858,7 +4858,7 @@ const bdInitialAssignments = [
      "auteur": "Tonya Osanne",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 442
     },
     {
@@ -4869,7 +4869,7 @@ const bdInitialAssignments = [
      "auteur": "Carleton Rusbridge",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 443
     },
     {
@@ -4913,7 +4913,7 @@ const bdInitialAssignments = [
      "auteur": "Irwinn Roycroft",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 447
     },
     {
@@ -4957,7 +4957,7 @@ const bdInitialAssignments = [
      "auteur": "Pansy Stickens",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 451
     },
     {
@@ -5012,7 +5012,7 @@ const bdInitialAssignments = [
      "auteur": "Nerty Burns",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 456
     },
     {
@@ -5023,7 +5023,7 @@ const bdInitialAssignments = [
      "auteur": "Karel Dana",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 457
     },
     {
@@ -5034,7 +5034,7 @@ const bdInitialAssignments = [
      "auteur": "Wanda Kinnen",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 458
     },
     {
@@ -5045,7 +5045,7 @@ const bdInitialAssignments = [
      "auteur": "Ali Housin",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 459
     },
     {
@@ -5089,7 +5089,7 @@ const bdInitialAssignments = [
      "auteur": "Dudley Cabell",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 463
     },
     {
@@ -5111,7 +5111,7 @@ const bdInitialAssignments = [
      "auteur": "Gilbertina Aldhouse",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 465
     },
     {
@@ -5144,7 +5144,7 @@ const bdInitialAssignments = [
      "auteur": "Neill Stonebanks",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 468
     },
     {
@@ -5166,7 +5166,7 @@ const bdInitialAssignments = [
      "auteur": "Sibella Pragnell",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 470
     },
     {
@@ -5177,7 +5177,7 @@ const bdInitialAssignments = [
      "auteur": "Beale Pagen",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 471
     },
     {
@@ -5210,7 +5210,7 @@ const bdInitialAssignments = [
      "auteur": "Teresa Ludee",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 474
     },
     {
@@ -5243,7 +5243,7 @@ const bdInitialAssignments = [
      "auteur": "Angie Surgison",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 477
     },
     {
@@ -5254,7 +5254,7 @@ const bdInitialAssignments = [
      "auteur": "Victor Seedman",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 478
     },
     {
@@ -5276,7 +5276,7 @@ const bdInitialAssignments = [
      "auteur": "Aggi Allport",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 480
     },
     {
@@ -5287,7 +5287,7 @@ const bdInitialAssignments = [
      "auteur": "Alexia Vannuchi",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 481
     },
     {
@@ -5309,7 +5309,7 @@ const bdInitialAssignments = [
      "auteur": "Mattias Leach",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 483
     },
     {
@@ -5331,7 +5331,7 @@ const bdInitialAssignments = [
      "auteur": "Kellby McBeith",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 485
     },
     {
@@ -5342,7 +5342,7 @@ const bdInitialAssignments = [
      "auteur": "Fonzie Shipston",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 486
     },
     {
@@ -5364,7 +5364,7 @@ const bdInitialAssignments = [
      "auteur": "Fionna Gumly",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 488
     },
     {
@@ -5408,7 +5408,7 @@ const bdInitialAssignments = [
      "auteur": "Francesca Stobbie",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 492
     },
     {
@@ -5419,7 +5419,7 @@ const bdInitialAssignments = [
      "auteur": "Hendrick Mollison",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 493
     },
     {
@@ -5430,7 +5430,7 @@ const bdInitialAssignments = [
      "auteur": "Billie Melan",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 494
     },
     {
@@ -5441,7 +5441,7 @@ const bdInitialAssignments = [
      "auteur": "Alard Turrell",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 495
     },
     {
@@ -5452,7 +5452,7 @@ const bdInitialAssignments = [
      "auteur": "Cally Honisch",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 496
     },
     {
@@ -5463,7 +5463,7 @@ const bdInitialAssignments = [
      "auteur": "Wandie Dayer",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 497
     },
     {
@@ -5474,7 +5474,7 @@ const bdInitialAssignments = [
      "auteur": "Salvatore Senett",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 498
     },
     {
@@ -5540,7 +5540,7 @@ const bdInitialAssignments = [
      "auteur": "Arlene Parram",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 504
     },
     {
@@ -5562,7 +5562,7 @@ const bdInitialAssignments = [
      "auteur": "Sallie Gaskarth",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 506
     },
     {
@@ -5573,7 +5573,7 @@ const bdInitialAssignments = [
      "auteur": "Mort Children",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 507
     },
     {
@@ -5595,7 +5595,7 @@ const bdInitialAssignments = [
      "auteur": "Sarajane L'oiseau",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 509
     },
     {
@@ -5617,7 +5617,7 @@ const bdInitialAssignments = [
      "auteur": "Miquela Gatlin",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 511
     },
     {
@@ -5650,7 +5650,7 @@ const bdInitialAssignments = [
      "auteur": "Anson Waleran",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 514
     },
     {
@@ -5672,7 +5672,7 @@ const bdInitialAssignments = [
      "auteur": "Sherill Barnwille",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 516
     },
     {
@@ -5716,7 +5716,7 @@ const bdInitialAssignments = [
      "auteur": "Peyter Tozer",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 520
     },
     {
@@ -5760,7 +5760,7 @@ const bdInitialAssignments = [
      "auteur": "Katleen Sebley",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 524
     },
     {
@@ -5782,7 +5782,7 @@ const bdInitialAssignments = [
      "auteur": "Norene Van Hault",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 526
     },
     {
@@ -5793,7 +5793,7 @@ const bdInitialAssignments = [
      "auteur": "Willi Copcutt",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 527
     },
     {
@@ -5826,7 +5826,7 @@ const bdInitialAssignments = [
      "auteur": "Kristien Farra",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 530
     },
     {
@@ -5837,7 +5837,7 @@ const bdInitialAssignments = [
      "auteur": "Gothart Bethune",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 531
     },
     {
@@ -5892,7 +5892,7 @@ const bdInitialAssignments = [
      "auteur": "Ibby McGreal",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 536
     },
     {
@@ -5903,7 +5903,7 @@ const bdInitialAssignments = [
      "auteur": "Charlene Keough",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 537
     },
     {
@@ -5914,7 +5914,7 @@ const bdInitialAssignments = [
      "auteur": "Jamill Klyner",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 538
     },
     {
@@ -5925,7 +5925,7 @@ const bdInitialAssignments = [
      "auteur": "Mallissa Barns",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 539
     },
     {
@@ -5936,7 +5936,7 @@ const bdInitialAssignments = [
      "auteur": "Ogdon Maccaig",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 540
     },
     {
@@ -5947,7 +5947,7 @@ const bdInitialAssignments = [
      "auteur": "Ryann McManamon",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 541
     },
     {
@@ -5958,7 +5958,7 @@ const bdInitialAssignments = [
      "auteur": "Blanca Airs",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 542
     },
     {
@@ -6013,7 +6013,7 @@ const bdInitialAssignments = [
      "auteur": "Melisent Drable",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 547
     },
     {
@@ -6035,7 +6035,7 @@ const bdInitialAssignments = [
      "auteur": "Damara Blackly",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 549
     },
     {
@@ -6079,7 +6079,7 @@ const bdInitialAssignments = [
      "auteur": "Mirilla Mushawe",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 553
     },
     {
@@ -6090,7 +6090,7 @@ const bdInitialAssignments = [
      "auteur": "Olympie Sconce",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 554
     },
     {
@@ -6145,7 +6145,7 @@ const bdInitialAssignments = [
      "auteur": "Gail Seiler",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 559
     },
     {
@@ -6156,7 +6156,7 @@ const bdInitialAssignments = [
      "auteur": "Analiese Casolla",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 560
     },
     {
@@ -6167,7 +6167,7 @@ const bdInitialAssignments = [
      "auteur": "Joyan Berthouloume",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 561
     },
     {
@@ -6178,7 +6178,7 @@ const bdInitialAssignments = [
      "auteur": "Temp Kynett",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 562
     },
     {
@@ -6222,7 +6222,7 @@ const bdInitialAssignments = [
      "auteur": "Ailbert Duhig",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 566
     },
     {
@@ -6233,7 +6233,7 @@ const bdInitialAssignments = [
      "auteur": "Jeremias Went",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 567
     },
     {
@@ -6244,7 +6244,7 @@ const bdInitialAssignments = [
      "auteur": "Andeee Pilipets",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 568
     },
     {
@@ -6299,7 +6299,7 @@ const bdInitialAssignments = [
      "auteur": "Hedwig Ghelerdini",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 573
     },
     {
@@ -6354,7 +6354,7 @@ const bdInitialAssignments = [
      "auteur": "Dasya Vynehall",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 578
     },
     {
@@ -6365,7 +6365,7 @@ const bdInitialAssignments = [
      "auteur": "Benedetta Izkovitz",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 579
     },
     {
@@ -6398,7 +6398,7 @@ const bdInitialAssignments = [
      "auteur": "Lynelle Balharry",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 582
     },
     {
@@ -6431,7 +6431,7 @@ const bdInitialAssignments = [
      "auteur": "Letta Reburn",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 585
     },
     {
@@ -6442,7 +6442,7 @@ const bdInitialAssignments = [
      "auteur": "Selia Hucks",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 586
     },
     {
@@ -6453,7 +6453,7 @@ const bdInitialAssignments = [
      "auteur": "Andras MacGillreich",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 587
     },
     {
@@ -6497,7 +6497,7 @@ const bdInitialAssignments = [
      "auteur": "Curcio Marfe",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 591
     },
     {
@@ -6519,7 +6519,7 @@ const bdInitialAssignments = [
      "auteur": "Blaine Carver",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 593
     },
     {
@@ -6541,7 +6541,7 @@ const bdInitialAssignments = [
      "auteur": "Inessa Paulusch",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 595
     },
     {
@@ -6552,7 +6552,7 @@ const bdInitialAssignments = [
      "auteur": "Antin Swanton",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 596
     },
     {
@@ -6563,7 +6563,7 @@ const bdInitialAssignments = [
      "auteur": "Wendye Wand",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 597
     },
     {
@@ -6607,7 +6607,7 @@ const bdInitialAssignments = [
      "auteur": "Elsey McGragh",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 601
     },
     {
@@ -6673,7 +6673,7 @@ const bdInitialAssignments = [
      "auteur": "Jill Monument",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 607
     },
     {
@@ -6717,7 +6717,7 @@ const bdInitialAssignments = [
      "auteur": "Tammie Stivey",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 611
     },
     {
@@ -6739,7 +6739,7 @@ const bdInitialAssignments = [
      "auteur": "Inglebert Ferencowicz",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 613
     },
     {
@@ -6750,7 +6750,7 @@ const bdInitialAssignments = [
      "auteur": "Clarance Saunder",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 614
     },
     {
@@ -6783,7 +6783,7 @@ const bdInitialAssignments = [
      "auteur": "Dorian McDool",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 617
     },
     {
@@ -6805,7 +6805,7 @@ const bdInitialAssignments = [
      "auteur": "Linnie Duchesne",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 619
     },
     {
@@ -6827,7 +6827,7 @@ const bdInitialAssignments = [
      "auteur": "Marissa Calam",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 621
     },
     {
@@ -6838,7 +6838,7 @@ const bdInitialAssignments = [
      "auteur": "Miguelita Addlestone",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 622
     },
     {
@@ -6849,7 +6849,7 @@ const bdInitialAssignments = [
      "auteur": "Fernanda Davio",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 623
     },
     {
@@ -6882,7 +6882,7 @@ const bdInitialAssignments = [
      "auteur": "Joane Knifton",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 626
     },
     {
@@ -6970,7 +6970,7 @@ const bdInitialAssignments = [
      "auteur": "Haydon Struis",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 634
     },
     {
@@ -6981,7 +6981,7 @@ const bdInitialAssignments = [
      "auteur": "Elbertina Schuchmacher",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 635
     },
     {
@@ -6992,7 +6992,7 @@ const bdInitialAssignments = [
      "auteur": "Janelle Babbage",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 636
     },
     {
@@ -7025,7 +7025,7 @@ const bdInitialAssignments = [
      "auteur": "Sheffield Garforth",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 639
     },
     {
@@ -7058,7 +7058,7 @@ const bdInitialAssignments = [
      "auteur": "Carroll Legendre",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 642
     },
     {
@@ -7113,7 +7113,7 @@ const bdInitialAssignments = [
      "auteur": "Hester Moatt",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 647
     },
     {
@@ -7124,7 +7124,7 @@ const bdInitialAssignments = [
      "auteur": "Damiano Vernau",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 648
     },
     {
@@ -7146,7 +7146,7 @@ const bdInitialAssignments = [
      "auteur": "Arlette Tetsall",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 650
     },
     {
@@ -7157,7 +7157,7 @@ const bdInitialAssignments = [
      "auteur": "Daron Klouz",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 651
     },
     {
@@ -7168,7 +7168,7 @@ const bdInitialAssignments = [
      "auteur": "Ellwood Kleinplac",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 652
     },
     {
@@ -7179,7 +7179,7 @@ const bdInitialAssignments = [
      "auteur": "Cass Pilgram",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 653
     },
     {
@@ -7223,7 +7223,7 @@ const bdInitialAssignments = [
      "auteur": "Lyndell Poynter",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 657
     },
     {
@@ -7234,7 +7234,7 @@ const bdInitialAssignments = [
      "auteur": "Dru Jeannard",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 658
     },
     {
@@ -7245,7 +7245,7 @@ const bdInitialAssignments = [
      "auteur": "Rollins Tebbutt",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 659
     },
     {
@@ -7256,7 +7256,7 @@ const bdInitialAssignments = [
      "auteur": "Lissy Kezor",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 660
     },
     {
@@ -7267,7 +7267,7 @@ const bdInitialAssignments = [
      "auteur": "Yolande Lovel",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 661
     },
     {
@@ -7300,7 +7300,7 @@ const bdInitialAssignments = [
      "auteur": "Deidre Garraway",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 664
     },
     {
@@ -7311,7 +7311,7 @@ const bdInitialAssignments = [
      "auteur": "Rebekah Brame",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 665
     },
     {
@@ -7366,7 +7366,7 @@ const bdInitialAssignments = [
      "auteur": "Tyson Boutcher",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 670
     },
     {
@@ -7388,7 +7388,7 @@ const bdInitialAssignments = [
      "auteur": "Meris Seiller",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 672
     },
     {
@@ -7410,7 +7410,7 @@ const bdInitialAssignments = [
      "auteur": "Loren Greim",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 674
     },
     {
@@ -7421,7 +7421,7 @@ const bdInitialAssignments = [
      "auteur": "Drake Pidcock",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 675
     },
     {
@@ -7443,7 +7443,7 @@ const bdInitialAssignments = [
      "auteur": "Gussy Persent",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 677
     },
     {
@@ -7465,7 +7465,7 @@ const bdInitialAssignments = [
      "auteur": "Jamison Dudding",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 679
     },
     {
@@ -7476,7 +7476,7 @@ const bdInitialAssignments = [
      "auteur": "Deva McGonnell",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 680
     },
     {
@@ -7498,7 +7498,7 @@ const bdInitialAssignments = [
      "auteur": "Lynn Dominelli",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 682
     },
     {
@@ -7509,7 +7509,7 @@ const bdInitialAssignments = [
      "auteur": "Gaye Bridal",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 683
     },
     {
@@ -7531,7 +7531,7 @@ const bdInitialAssignments = [
      "auteur": "Jakob Carine",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 685
     },
     {
@@ -7553,7 +7553,7 @@ const bdInitialAssignments = [
      "auteur": "Lemar Wheble",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 687
     },
     {
@@ -7575,7 +7575,7 @@ const bdInitialAssignments = [
      "auteur": "Hillard Yanele",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 689
     },
     {
@@ -7608,7 +7608,7 @@ const bdInitialAssignments = [
      "auteur": "Alec Grigore",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 692
     },
     {
@@ -7630,7 +7630,7 @@ const bdInitialAssignments = [
      "auteur": "Ferrell Opdenorth",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 694
     },
     {
@@ -7641,7 +7641,7 @@ const bdInitialAssignments = [
      "auteur": "Tandie Castree",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 695
     },
     {
@@ -7696,7 +7696,7 @@ const bdInitialAssignments = [
      "auteur": "Benedikt Di Pietro",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 700
     },
     {
@@ -7707,7 +7707,7 @@ const bdInitialAssignments = [
      "auteur": "Roderigo Heigho",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 701
     },
     {
@@ -7718,7 +7718,7 @@ const bdInitialAssignments = [
      "auteur": "Raf Forrest",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 702
     },
     {
@@ -7729,7 +7729,7 @@ const bdInitialAssignments = [
      "auteur": "Shaylah Koeppke",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 703
     },
     {
@@ -7751,7 +7751,7 @@ const bdInitialAssignments = [
      "auteur": "Ax Giraldon",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 705
     },
     {
@@ -7762,7 +7762,7 @@ const bdInitialAssignments = [
      "auteur": "Pierrette Foat",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 706
     },
     {
@@ -7784,7 +7784,7 @@ const bdInitialAssignments = [
      "auteur": "Deonne Limpertz",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 708
     },
     {
@@ -7795,7 +7795,7 @@ const bdInitialAssignments = [
      "auteur": "Adolphus Duer",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 709
     },
     {
@@ -7817,7 +7817,7 @@ const bdInitialAssignments = [
      "auteur": "Mela Riddall",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 711
     },
     {
@@ -7828,7 +7828,7 @@ const bdInitialAssignments = [
      "auteur": "Timmy Tuffley",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 712
     },
     {
@@ -7861,7 +7861,7 @@ const bdInitialAssignments = [
      "auteur": "Roldan Higounet",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 715
     },
     {
@@ -7883,7 +7883,7 @@ const bdInitialAssignments = [
      "auteur": "Car McTeague",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 717
     },
     {
@@ -7905,7 +7905,7 @@ const bdInitialAssignments = [
      "auteur": "Natalina Balsdon",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 719
     },
     {
@@ -7916,7 +7916,7 @@ const bdInitialAssignments = [
      "auteur": "Shirlene Lashmar",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 720
     },
     {
@@ -7927,7 +7927,7 @@ const bdInitialAssignments = [
      "auteur": "Zeb Scolts",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 721
     },
     {
@@ -7971,7 +7971,7 @@ const bdInitialAssignments = [
      "auteur": "Brennan Ledgeway",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 725
     },
     {
@@ -7982,7 +7982,7 @@ const bdInitialAssignments = [
      "auteur": "Jodie Le Maitre",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 726
     },
     {
@@ -8026,7 +8026,7 @@ const bdInitialAssignments = [
      "auteur": "Shari Bank",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 730
     },
     {
@@ -8037,7 +8037,7 @@ const bdInitialAssignments = [
      "auteur": "Wally Pocock",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 731
     },
     {
@@ -8048,7 +8048,7 @@ const bdInitialAssignments = [
      "auteur": "Yard Sankey",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 732
     },
     {
@@ -8081,7 +8081,7 @@ const bdInitialAssignments = [
      "auteur": "Wenonah Burlingame",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 735
     },
     {
@@ -8114,7 +8114,7 @@ const bdInitialAssignments = [
      "auteur": "Tanhya Reynold",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 738
     },
     {
@@ -8158,7 +8158,7 @@ const bdInitialAssignments = [
      "auteur": "Sloane Trigwell",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 742
     },
     {
@@ -8169,7 +8169,7 @@ const bdInitialAssignments = [
      "auteur": "Collete Corre",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 743
     },
     {
@@ -8180,7 +8180,7 @@ const bdInitialAssignments = [
      "auteur": "Donielle Chafney",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 744
     },
     {
@@ -8191,7 +8191,7 @@ const bdInitialAssignments = [
      "auteur": "Alyce Scowcraft",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 745
     },
     {
@@ -8202,7 +8202,7 @@ const bdInitialAssignments = [
      "auteur": "Obediah Toghill",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 746
     },
     {
@@ -8235,7 +8235,7 @@ const bdInitialAssignments = [
      "auteur": "Ardenia Mattheus",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 749
     },
     {
@@ -8246,7 +8246,7 @@ const bdInitialAssignments = [
      "auteur": "Jilli Brennand",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 750
     },
     {
@@ -8257,7 +8257,7 @@ const bdInitialAssignments = [
      "auteur": "Alma Shales",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 751
     },
     {
@@ -8290,7 +8290,7 @@ const bdInitialAssignments = [
      "auteur": "Conney Castagne",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 754
     },
     {
@@ -8301,7 +8301,7 @@ const bdInitialAssignments = [
      "auteur": "Ode Bearward",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 755
     },
     {
@@ -8345,7 +8345,7 @@ const bdInitialAssignments = [
      "auteur": "Torry Skillings",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 759
     },
     {
@@ -8356,7 +8356,7 @@ const bdInitialAssignments = [
      "auteur": "Tibold Odam",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 760
     },
     {
@@ -8367,7 +8367,7 @@ const bdInitialAssignments = [
      "auteur": "Tony Peers",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 761
     },
     {
@@ -8411,7 +8411,7 @@ const bdInitialAssignments = [
      "auteur": "Lilllie Reicharz",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 765
     },
     {
@@ -8444,7 +8444,7 @@ const bdInitialAssignments = [
      "auteur": "Brion Lesper",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 768
     },
     {
@@ -8477,7 +8477,7 @@ const bdInitialAssignments = [
      "auteur": "Mario Geertsen",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 771
     },
     {
@@ -8488,7 +8488,7 @@ const bdInitialAssignments = [
      "auteur": "Meggi Stiegars",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 772
     },
     {
@@ -8499,7 +8499,7 @@ const bdInitialAssignments = [
      "auteur": "Alys Penman",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 773
     },
     {
@@ -8521,7 +8521,7 @@ const bdInitialAssignments = [
      "auteur": "Rudy Kubala",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 775
     },
     {
@@ -8543,7 +8543,7 @@ const bdInitialAssignments = [
      "auteur": "Melva Kellie",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 777
     },
     {
@@ -8554,7 +8554,7 @@ const bdInitialAssignments = [
      "auteur": "Francene Lochran",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 778
     },
     {
@@ -8576,7 +8576,7 @@ const bdInitialAssignments = [
      "auteur": "Aurelie Hunnam",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 780
     },
     {
@@ -8620,7 +8620,7 @@ const bdInitialAssignments = [
      "auteur": "Pepe Kitcat",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 784
     },
     {
@@ -8653,7 +8653,7 @@ const bdInitialAssignments = [
      "auteur": "Elbertine Kelshaw",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 787
     },
     {
@@ -8675,7 +8675,7 @@ const bdInitialAssignments = [
      "auteur": "Ashlin Rossiter",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 789
     },
     {
@@ -8708,7 +8708,7 @@ const bdInitialAssignments = [
      "auteur": "Tobye Theobald",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 792
     },
     {
@@ -8719,7 +8719,7 @@ const bdInitialAssignments = [
      "auteur": "Wolfy Lockney",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 793
     },
     {
@@ -8741,7 +8741,7 @@ const bdInitialAssignments = [
      "auteur": "Rana Fookes",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 795
     },
     {
@@ -8752,7 +8752,7 @@ const bdInitialAssignments = [
      "auteur": "Web Skillett",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 796
     },
     {
@@ -8774,7 +8774,7 @@ const bdInitialAssignments = [
      "auteur": "Jordan Sexten",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 798
     },
     {
@@ -8829,7 +8829,7 @@ const bdInitialAssignments = [
      "auteur": "Fenelia Tuminini",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 803
     },
     {
@@ -8851,7 +8851,7 @@ const bdInitialAssignments = [
      "auteur": "Whitney Simounet",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 805
     },
     {
@@ -8873,7 +8873,7 @@ const bdInitialAssignments = [
      "auteur": "Aryn Insull",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 807
     },
     {
@@ -8906,7 +8906,7 @@ const bdInitialAssignments = [
      "auteur": "Jillana Houseman",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 810
     },
     {
@@ -8917,7 +8917,7 @@ const bdInitialAssignments = [
      "auteur": "Gwennie Ambridge",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 811
     },
     {
@@ -8928,7 +8928,7 @@ const bdInitialAssignments = [
      "auteur": "Catriona Couldwell",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 812
     },
     {
@@ -8950,7 +8950,7 @@ const bdInitialAssignments = [
      "auteur": "Sax Hovy",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 814
     },
     {
@@ -8994,7 +8994,7 @@ const bdInitialAssignments = [
      "auteur": "Eunice Fillgate",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 818
     },
     {
@@ -9005,7 +9005,7 @@ const bdInitialAssignments = [
      "auteur": "Catherin Nelius",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 819
     },
     {
@@ -9027,7 +9027,7 @@ const bdInitialAssignments = [
      "auteur": "Starla Roskilly",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 821
     },
     {
@@ -9137,7 +9137,7 @@ const bdInitialAssignments = [
      "auteur": "Chaddy Chalcot",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 831
     },
     {
@@ -9203,7 +9203,7 @@ const bdInitialAssignments = [
      "auteur": "Maury Krebs",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 837
     },
     {
@@ -9258,7 +9258,7 @@ const bdInitialAssignments = [
      "auteur": "Isabel Elcomb",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 842
     },
     {
@@ -9313,7 +9313,7 @@ const bdInitialAssignments = [
      "auteur": "Derk Whalebelly",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 847
     },
     {
@@ -9335,7 +9335,7 @@ const bdInitialAssignments = [
      "auteur": "Cyndie Gonet",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 849
     },
     {
@@ -9346,7 +9346,7 @@ const bdInitialAssignments = [
      "auteur": "Dillon Sharper",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 850
     },
     {
@@ -9368,7 +9368,7 @@ const bdInitialAssignments = [
      "auteur": "Kellby Pering",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 852
     },
     {
@@ -9379,7 +9379,7 @@ const bdInitialAssignments = [
      "auteur": "Bibi Lehrian",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 853
     },
     {
@@ -9390,7 +9390,7 @@ const bdInitialAssignments = [
      "auteur": "Josephina Hirtz",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 854
     },
     {
@@ -9401,7 +9401,7 @@ const bdInitialAssignments = [
      "auteur": "Eilis Dmych",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 855
     },
     {
@@ -9423,7 +9423,7 @@ const bdInitialAssignments = [
      "auteur": "Elfrieda Stilliard",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 857
     },
     {
@@ -9456,7 +9456,7 @@ const bdInitialAssignments = [
      "auteur": "Lory Muckian",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 860
     },
     {
@@ -9511,7 +9511,7 @@ const bdInitialAssignments = [
      "auteur": "Cacilie Scrange",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 865
     },
     {
@@ -9544,7 +9544,7 @@ const bdInitialAssignments = [
      "auteur": "Sorcha Stockow",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 868
     },
     {
@@ -9577,7 +9577,7 @@ const bdInitialAssignments = [
      "auteur": "Jermaine Inglese",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 871
     },
     {
@@ -9599,7 +9599,7 @@ const bdInitialAssignments = [
      "auteur": "Tiphanie Connichie",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 873
     },
     {
@@ -9610,7 +9610,7 @@ const bdInitialAssignments = [
      "auteur": "Anthea Lamberto",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 874
     },
     {
@@ -9632,7 +9632,7 @@ const bdInitialAssignments = [
      "auteur": "Carolus Mathes",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 876
     },
     {
@@ -9676,7 +9676,7 @@ const bdInitialAssignments = [
      "auteur": "Dorthy Woodger",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 880
     },
     {
@@ -9687,7 +9687,7 @@ const bdInitialAssignments = [
      "auteur": "Kerwin de Keep",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 881
     },
     {
@@ -9698,7 +9698,7 @@ const bdInitialAssignments = [
      "auteur": "Axel Figgures",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 882
     },
     {
@@ -9709,7 +9709,7 @@ const bdInitialAssignments = [
      "auteur": "Corrianne Cashin",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 883
     },
     {
@@ -9720,7 +9720,7 @@ const bdInitialAssignments = [
      "auteur": "Wait Hazeley",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 884
     },
     {
@@ -9731,7 +9731,7 @@ const bdInitialAssignments = [
      "auteur": "Zelda Gruszka",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 885
     },
     {
@@ -9764,7 +9764,7 @@ const bdInitialAssignments = [
      "auteur": "Klarrisa Dobing",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 888
     },
     {
@@ -9775,7 +9775,7 @@ const bdInitialAssignments = [
      "auteur": "Vidovik Casarino",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 889
     },
     {
@@ -9786,7 +9786,7 @@ const bdInitialAssignments = [
      "auteur": "Connor Bonny",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 890
     },
     {
@@ -9797,7 +9797,7 @@ const bdInitialAssignments = [
      "auteur": "Garfield Crandon",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 891
     },
     {
@@ -9819,7 +9819,7 @@ const bdInitialAssignments = [
      "auteur": "Esdras Drabble",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 893
     },
     {
@@ -9830,7 +9830,7 @@ const bdInitialAssignments = [
      "auteur": "Minnaminnie Lovick",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 894
     },
     {
@@ -9841,7 +9841,7 @@ const bdInitialAssignments = [
      "auteur": "Gunilla Sharville",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 895
     },
     {
@@ -9852,7 +9852,7 @@ const bdInitialAssignments = [
      "auteur": "Gaultiero Durie",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 896
     },
     {
@@ -9885,7 +9885,7 @@ const bdInitialAssignments = [
      "auteur": "Stephenie Keepence",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 899
     },
     {
@@ -9896,7 +9896,7 @@ const bdInitialAssignments = [
      "auteur": "Allie Lujan",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 900
     },
     {
@@ -9907,7 +9907,7 @@ const bdInitialAssignments = [
      "auteur": "Stacey Millett",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 901
     },
     {
@@ -9918,7 +9918,7 @@ const bdInitialAssignments = [
      "auteur": "Julia Ivimy",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 902
     },
     {
@@ -9984,7 +9984,7 @@ const bdInitialAssignments = [
      "auteur": "Darn McSporon",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 908
     },
     {
@@ -9995,7 +9995,7 @@ const bdInitialAssignments = [
      "auteur": "Terrie Lester",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 909
     },
     {
@@ -10006,7 +10006,7 @@ const bdInitialAssignments = [
      "auteur": "Burg Feldhuhn",
      "matiere": "Technologies Web",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 910
     },
     {
@@ -10017,7 +10017,7 @@ const bdInitialAssignments = [
      "auteur": "Stefan Kennsley",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 911
     },
     {
@@ -10050,7 +10050,7 @@ const bdInitialAssignments = [
      "auteur": "Hale Mourton",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 914
     },
     {
@@ -10061,7 +10061,7 @@ const bdInitialAssignments = [
      "auteur": "Irving Kingshott",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 915
     },
     {
@@ -10072,7 +10072,7 @@ const bdInitialAssignments = [
      "auteur": "Sascha Galey",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 916
     },
     {
@@ -10083,7 +10083,7 @@ const bdInitialAssignments = [
      "auteur": "Romona Caren",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 917
     },
     {
@@ -10105,7 +10105,7 @@ const bdInitialAssignments = [
      "auteur": "Hadria Yanne",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 919
     },
     {
@@ -10116,7 +10116,7 @@ const bdInitialAssignments = [
      "auteur": "Anni Klarzynski",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 920
     },
     {
@@ -10127,7 +10127,7 @@ const bdInitialAssignments = [
      "auteur": "Guy Antosch",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 921
     },
     {
@@ -10138,7 +10138,7 @@ const bdInitialAssignments = [
      "auteur": "Barth Sholem",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 922
     },
     {
@@ -10149,7 +10149,7 @@ const bdInitialAssignments = [
      "auteur": "Miquela Haseley",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 923
     },
     {
@@ -10182,7 +10182,7 @@ const bdInitialAssignments = [
      "auteur": "Annalise Nicholl",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 926
     },
     {
@@ -10193,7 +10193,7 @@ const bdInitialAssignments = [
      "auteur": "Sunny Penrose",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 927
     },
     {
@@ -10204,7 +10204,7 @@ const bdInitialAssignments = [
      "auteur": "Ulric Fabri",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 928
     },
     {
@@ -10215,7 +10215,7 @@ const bdInitialAssignments = [
      "auteur": "Dorena Blasoni",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 929
     },
     {
@@ -10237,7 +10237,7 @@ const bdInitialAssignments = [
      "auteur": "Antony Sitlinton",
      "matiere": "Communication",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 931
     },
     {
@@ -10270,7 +10270,7 @@ const bdInitialAssignments = [
      "auteur": "Addi Boater",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 934
     },
     {
@@ -10281,7 +10281,7 @@ const bdInitialAssignments = [
      "auteur": "Skipton Fridaye",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 935
     },
     {
@@ -10292,7 +10292,7 @@ const bdInitialAssignments = [
      "auteur": "Rani Le Moucheux",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 936
     },
     {
@@ -10314,7 +10314,7 @@ const bdInitialAssignments = [
      "auteur": "Brandi Shorten",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 938
     },
     {
@@ -10325,7 +10325,7 @@ const bdInitialAssignments = [
      "auteur": "Vere Plose",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 939
     },
     {
@@ -10336,7 +10336,7 @@ const bdInitialAssignments = [
      "auteur": "Sollie McCuaig",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 940
     },
     {
@@ -10413,7 +10413,7 @@ const bdInitialAssignments = [
      "auteur": "Garvey Roofe",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 947
     },
     {
@@ -10446,7 +10446,7 @@ const bdInitialAssignments = [
      "auteur": "Brandea Outridge",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 950
     },
     {
@@ -10468,7 +10468,7 @@ const bdInitialAssignments = [
      "auteur": "Alistair Dict",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 952
     },
     {
@@ -10512,7 +10512,7 @@ const bdInitialAssignments = [
      "auteur": "Truda McArthur",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 956
     },
     {
@@ -10523,7 +10523,7 @@ const bdInitialAssignments = [
      "auteur": "Wyndham Wickmann",
      "matiere": "Programmation avancée Java",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 957
     },
     {
@@ -10556,7 +10556,7 @@ const bdInitialAssignments = [
      "auteur": "Barnabas Gannaway",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 960
     },
     {
@@ -10567,7 +10567,7 @@ const bdInitialAssignments = [
      "auteur": "Amandie Asee",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 961
     },
     {
@@ -10578,7 +10578,7 @@ const bdInitialAssignments = [
      "auteur": "Moe Aupol",
      "matiere": "Mathématiques",
      "note": 99,
-     "remarques": "Besoin d'amélioration.",
+     "remarques": " ",
      "id": 962
     },
     {
@@ -10655,7 +10655,7 @@ const bdInitialAssignments = [
      "auteur": "Konstantine Clemencon",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 969
     },
     {
@@ -10666,7 +10666,7 @@ const bdInitialAssignments = [
      "auteur": "Valeria Feaks",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 970
     },
     {
@@ -10699,7 +10699,7 @@ const bdInitialAssignments = [
      "auteur": "Cameron Omond",
      "matiere": "Base de données",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 973
     },
     {
@@ -10754,7 +10754,7 @@ const bdInitialAssignments = [
      "auteur": "Maddy Bratchell",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 978
     },
     {
@@ -10765,7 +10765,7 @@ const bdInitialAssignments = [
      "auteur": "Cherin Southerell",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 979
     },
     {
@@ -10776,7 +10776,7 @@ const bdInitialAssignments = [
      "auteur": "Doy Conring",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 980
     },
     {
@@ -10820,7 +10820,7 @@ const bdInitialAssignments = [
      "auteur": "Hillary Rothchild",
      "matiere": "Ingénierie des besoins",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 984
     },
     {
@@ -10831,7 +10831,7 @@ const bdInitialAssignments = [
      "auteur": "Alphard Scourge",
      "matiere": "Outils pour le big data",
      "note": 99,
-     "remarques": "Excellent travail !",
+     "remarques": " ",
      "id": 985
     },
     {
@@ -10842,7 +10842,7 @@ const bdInitialAssignments = [
      "auteur": "Asher Daye",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 986
     },
     {
@@ -10875,7 +10875,7 @@ const bdInitialAssignments = [
      "auteur": "Candi Stennings",
      "matiere": "Analyse financière",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 989
     },
     {
@@ -10897,7 +10897,7 @@ const bdInitialAssignments = [
      "auteur": "Ruben Grimoldby",
      "matiere": "Planification de projet",
      "note": 99,
-     "remarques": "Manque de précision.",
+     "remarques": " ",
      "id": 991
     },
     {
@@ -10908,7 +10908,7 @@ const bdInitialAssignments = [
      "auteur": "Fanechka Huguenet",
      "matiere": "Anglais",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 992
     },
     {
@@ -10952,7 +10952,7 @@ const bdInitialAssignments = [
      "auteur": "Myra Busek",
      "matiere": "Economie",
      "note": 99,
-     "remarques": "Très bien fait.",
+     "remarques": " ",
      "id": 996
     },
     {
@@ -10996,9 +10996,9 @@ const bdInitialAssignments = [
      "auteur": "Ave Kelcey",
      "matiere": "Grails",
      "note": 99,
-     "remarques": "Bonne compréhension du sujet.",
+     "remarques": " ",
      "id": 1000
     }
-   ]
-
+   ];
+   
 export { bdInitialAssignments };
