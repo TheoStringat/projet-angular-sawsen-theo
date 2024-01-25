@@ -1,6 +1,6 @@
 .mat-toolbar {
-  background: rgba(206, 209, 206, 0.126); 
-  backdrop-filter: transparent ; 
+  backdrop-filter: transparent ;
+  backdrop-filter:blur(10px)  ; 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
 
 
@@ -31,4 +31,16 @@
 #ico_logout {
   display: none;
 }
+
+
+.sidenav {
+
+  background: transparent;
+  border: 2px solid rgba(248, 248, 248, 0.921);
+  backdrop-filter: blur(9px);
+  color: #fafafa;
+}
+
+
+
 
