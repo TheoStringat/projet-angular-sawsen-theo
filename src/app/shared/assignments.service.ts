@@ -4,31 +4,19 @@ import { Observable, of } from 'rxjs';
 import { LoggingService } from './logging.service';
 import { HttpClient } from '@angular/common/http';
 import { bdInitialAssignments } from './data';
-import { Matiere } from '../matiere.modele';
+import { Matiere } from '../matiere.model';
+import { MatieresService } from './matieres.services';
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class AssignmentsService {
-  // Tableau de matieres
-  private matieres: Matiere[] = [
-    {nom: "Technologies Web", imageMatiere: "technoWeb.png", prof: "prof1"},
-    {nom: "Base de données", imageMatiere: "bdd.png", prof: "prof2"},
-    {nom: "Analyse financière", imageMatiere: "finance.png", prof: "prof4"},
-    {nom: "Grails", imageMatiere: "grails.png", prof: "prof5"},
-    {nom: "Economie", imageMatiere: "economie.png", prof: "prof6"},
-    {nom: "Anglais", imageMatiere: "anglais.png", prof: "prof1"},
-    {nom: "Mathématiques", imageMatiere: "mathematiques.png", prof: "prof2"},
-    {nom: "Outils pour le big data", imageMatiere: "bigData.png", prof: "prof3"},
-    {nom: "Planification de projet", imageMatiere: "planificationProjet.png", prof: "prof4"},
-    {nom: "Programmation avancée Java", imageMatiere: "java.png", prof: "prof5"},
-    {nom: "Communication", imageMatiere: "communication.png", prof: "prof6"},
-    {nom: "Ingénierie des besoins", imageMatiere: "ingenierieBesoins.png", prof: "prof3"}
-  ];
 
   constructor(private loggingService:LoggingService,
-              private http:HttpClient) {}
+              private http:HttpClient,
+              private matieresService:MatieresService) {
+              }
 
   url = 'http://localhost:8010/api/assignments';
 
@@ -61,7 +49,12 @@ export class AssignmentsService {
       
       nouvelAssignment.matiere = {} as Matiere;
 
-      const matiereTrouvee = this.matieres.find((m) => m.nom === a.matiere);
+      let tableMatieres: Matiere[] = [];
+      this.matieresService.getMatieres().subscribe((matieres) => {
+        tableMatieres = matieres;
+      });
+
+      const matiereTrouvee = tableMatieres.find((m) => m.nom === a.matiere);
       if (matiereTrouvee) {
         nouvelAssignment.matiere = {
           nom: matiereTrouvee.nom,
@@ -87,10 +80,6 @@ export class AssignmentsService {
 
   getAssignmentsPagine(page:number, limit:number):Observable<any> {
     return this.http.get<any>(this.url + '?page=' + page + '&limit=' + limit);
-  }
-
-  getMatieres():Observable<Matiere[]> {
-    return of(this.matieres);
   }
 
 }

@@ -1,4 +1,4 @@
-import { Matiere } from "../matiere.modele"
+import { Matiere } from "../matiere.model"
 
 export class Assignment {
     // ? signifie que la propriété est optionnelle et est automatiquement initialisée lors de la création de l'objet

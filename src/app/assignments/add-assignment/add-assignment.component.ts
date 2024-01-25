@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Assignment } from '../assignment.model';
 import { AssignmentsService } from 'src/app/shared/assignments.service';
-import { Matiere } from 'src/app/matiere.modele';
+import { Matiere } from 'src/app/matiere.model';
+import { MatieresService } from 'src/app/shared/matieres.services';
 
 @Component({
   selector: 'app-add-assignment',
@@ -18,10 +19,11 @@ export class AddAssignmentComponent implements OnInit{
   profSelectionne!: string;
   nomEleve!: string;
 
-  constructor(private assignmentsService:AssignmentsService) { }
+  constructor(private assignmentsService:AssignmentsService,
+              private matieresService:MatieresService) { }
 
   ngOnInit(): void {
-    this.assignmentsService.getMatieres()
+    this.matieresService.getMatieres()
       .subscribe((matieres: Matiere[]) => {
         this.matieres = matieres;
       });
