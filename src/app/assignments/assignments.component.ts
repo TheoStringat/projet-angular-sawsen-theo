@@ -89,7 +89,6 @@ export class AssignmentsComponent implements OnInit {
     this.assignmentSelectionne = null;
   }
 
-  //tu mers tes methodes
   onPreviousPage() {
     this.page--;
     this.ngOnInit();
