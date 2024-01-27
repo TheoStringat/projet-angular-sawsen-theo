@@ -116,3 +116,10 @@ span.non-rendu {
 .add-assignment-btn:hover {
   background: #388e3c;
 }
+
+mat-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Vous pouvez ajuster la marge en fonction de votre mise en page */
+}
