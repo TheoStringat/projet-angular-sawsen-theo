@@ -1,5 +1,6 @@
-<div class="container" *ngIf="assignment">
-    <h1>Edition de l'assignment {{assignment.nom}}</h1>
+<body>
+<div class="wrapper" *ngIf="assignment">
+    <h1 class ="h1">Edition de l'assignment {{assignment.nom}}</h1>
     <form ngForm class="form" #formupdate (submit)="onSaveAssignment(); formupdate.reset(); ">
       <div>
         <mat-form-field>
@@ -26,8 +27,9 @@
         </mat-form-field>
       </div>
 
-      <button mat-raised-button color="primary" [disabled]="((!nomAssignment)||(!dateDeRendu))">
+      <button mat-raised-button color="green" [disabled]="((!nomAssignment)||(!dateDeRendu))">
         Enregistrer
       </button>
     </form>
 </div>
+</body>
