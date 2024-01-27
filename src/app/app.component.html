@@ -35,13 +35,7 @@
       <a mat-list-item routerLink="/add" routerLinkActive="active-link">
         <span>Ajout d'un devoir</span>
       </a>
-      <a mat-list-item routerLink="/edit" routerLinkActive="active-link">
-        <span>Modification d'un devoir</span>
-      </a>
-      <a mat-list-item routerLink="/" routerLinkActive="active-link">
-        <span>Suppression d'un devoir</span>
-      </a>
-      <a mat-list-item routerLink="/" routerLinkActive="active-link">
+      <a mat-list-item (click)="peuplerBD()" routerLinkActive="active-link">
         <span>Génération de données de test</span>
       </a>
     </mat-nav-list>

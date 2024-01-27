@@ -27,4 +27,8 @@ export class AppComponent {
       logoutElement.style.display = 'none';
     }
   }
+
+  peuplerBD() {
+    this.assignmentService.peuplerBD();
+  }
 }
