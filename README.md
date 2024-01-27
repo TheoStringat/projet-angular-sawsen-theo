@@ -28,7 +28,7 @@ auteurs
 
 - [ ] : Améliorer l'affichage des Assignments
     - [X] Vous afficherez les assignments dans une table angular material. A vous de voir si vous arrivez à la rendre triable, avec ligne des headers fixe (qui ne scrolle pas), avec la pagination. Ajoutez un moyen pour avoir une vue de détail sur un assignment.
-    - [ ] OPTIONNEL : pour la pagination vous pouvez regarder pour utiliser le composant Paginator de angular material.
+    - [X] OPTIONNEL : pour la pagination vous pouvez regarder pour utiliser le composant Paginator de angular material.
     - [ ] Regardez les tables avec datasource, c'est encore plus simple.
     - [X] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.
     - [X] Les formulaires d'ajout et de détails proposeront un choix fixe de matières (et associeront automatiquement le prof et l'image illustrant la matière) 

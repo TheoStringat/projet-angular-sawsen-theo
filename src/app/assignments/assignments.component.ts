@@ -2,6 +2,8 @@ import { Component, OnInit, } from '@angular/core';
 import { Assignment } from './assignment.model';
 import { AssignmentsService } from '../shared/assignments.service';
 import { Router } from '@angular/router';
+import { MatTableDataSource } from '@angular/material/table';
+import { PageEvent } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-assignments',
@@ -29,7 +31,7 @@ export class AssignmentsComponent implements OnInit {
   ajoutActive = false;
   assignmentSelectionne!: Assignment | null;
   formVisible = false;
-  assignments!:Assignment[];
+  assignments!: Assignment[];
   displayedColumns: string[] = ['dateDeRendu', 'nom', 'auteur', 'etat'];
 
   
@@ -39,8 +41,26 @@ export class AssignmentsComponent implements OnInit {
 
   
   ngOnInit(): void {
-    //this.assignments = this.assignmentService.getAssignments();
-    //this.getAssignments();
+    this.getPaginatorAssignments();
+  }
+
+  onPageChange(event: PageEvent) {
+    console.log(event);
+    // si l'utilisateur clique sur le bouton de la page d'après
+    if(event.pageIndex > (event.previousPageIndex ?? 0)) {
+      this.page++;
+    }
+    // si l'utilisateur clique sur le bouton de la page d'avant
+    else if((event.previousPageIndex ?? 0) > 0 && event.pageIndex < (event.previousPageIndex ?? 0)) {
+      this.page--;
+    }
+    // si l'utilisateur change le nombre d'éléments par page
+    this.limit = event.pageSize;
+    
+    this.getPaginatorAssignments();
+  }
+
+  getPaginatorAssignments() {
     this.assignmentService.getAssignmentsPagine(this.page, this.limit).subscribe(data => {
       this.assignments = data.docs;
       this.totalDocs = data.totalDocs;
@@ -62,6 +82,7 @@ export class AssignmentsComponent implements OnInit {
   getAssignments() {
     this.assignmentService.getAssignments()
       .subscribe(assignments => this.assignments = assignments);
+      
   }
 
   assignmentClique(assignment: Assignment) {
@@ -87,6 +108,8 @@ export class AssignmentsComponent implements OnInit {
     this.assignments.splice(index, 1);
     // Réinitialiser l'assignment sélectionné pour que la carte de détail disparaisse
     this.assignmentSelectionne = null;
+    //on met a jour la table
+    this.getPaginatorAssignments();
   }
 
   onPreviousPage() {

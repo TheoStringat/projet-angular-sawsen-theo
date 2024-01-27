@@ -3,14 +3,10 @@
     <p>Nombre d'éléments : {{totalDocs}}</p>
     <span class="example-spacer1"></span>
 
-    <div style="display: flex;">
-        <button class="btn" mat-raised-button (click)="onPreviousPage()">Précédent</button>
-        <span class="example-spacer1"></span>
-        <button class="btn" mat-raised-button (click)="onNextPage()" style="float:right ;">Suivant</button>
-        <span class="example-spacer1"></span>
-     
-       
-    </div>
+    
+    <!--mets un mat-paginator qui remplace les boutons precédent et suivant-->
+    <mat-paginator [length]="totalDocs" [pageSize]="limit" [pageSizeOptions]="[5, 10, 20]" (page)="onPageChange($event)">
+    </mat-paginator>
        
     <span class="example-spacer1"></span>
     <div >
