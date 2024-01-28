@@ -116,13 +116,17 @@ function updateAssignment(req, res) {
 
 // suppression d'un assignment (DELETE)
 function deleteAssignment(req, res) {
-
-    Assignment.findByIdAndDelete(req.params.id, (err, assignment) => {
-        if (err) {
-            res.send(err);
-        }
+  Assignment.findByIdAndDelete(req.params.id)
+    .then(assignment => {
+      if (assignment) {
         res.json({message: `${assignment.nom} deleted`});
+      } else {
+        res.status(404).json({message: "Assignment not found"});
+      }
     })
+    .catch(err => {
+      res.status(500).send(err);
+    });
 }
 
 
