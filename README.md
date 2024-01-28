@@ -44,13 +44,24 @@ liste des identifiants et mots de passe pour les utilisateurs de l'application :
 
 - [X] Rendre le tout plus joli, essayez de ne pas tous faire la même chose. Je recommande une toolbar en haut, une sidebar sur le côté
 
-- [ ] Hébergement sur Heroku.com ou render.com
+- [X] Hébergement sur Heroku.com ou render.com
 
 ## Répartition des tâches
+
+Même temps et charge de travail pour les deux membres du groupe mais voici une répartition assez globale des tâches :
 
 Sawsen El Bahri :
  - Génération des assignments et adaptation du code pour les assignments
  - Partie Users avec la collection associée
  - Majeure partie du CSS
+ - Ajouts des filtre + recherche sur les assignments
 
 Théo Stringat :
+ - Hébergement sur Render.com
+ - Collection Matières 
+ - Table Angular Material et back-end associé
+ - Gestion de la BD Mongoose
+
+ ## Lien vers l'application
+
+ https://app-assignment.onrender.com/
