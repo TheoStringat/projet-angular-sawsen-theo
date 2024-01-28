@@ -1,4 +1,3 @@
-auteurs
 # Projet Angular - Janvier 2024
 
 ## Auteurs du projet

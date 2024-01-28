@@ -1,6 +1,5 @@
 <body>
 <main class="wrapper">
-    <p>Nombre d'éléments : {{totalDocs}}</p>
     <span class="example-spacer1"></span>
 
     
@@ -8,6 +7,7 @@
     <mat-paginator [length]="totalDocs" [pageSize]="limit" [pageSizeOptions]="[5, 10, 20]" (page)="onPageChange($event)">
     </mat-paginator>
     <!-- Champ de recherche pour les assignments -->
+
 
 
     <!--filtre pour les devoirs rendus et non rendus-->
@@ -25,6 +25,7 @@
           </mat-select>
       </mat-form-field>
   </div>
+
 
     <span class="example-spacer1"></span>
     <div >
