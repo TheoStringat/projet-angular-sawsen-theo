@@ -18,7 +18,7 @@ export class AssignmentsService {
               private matieresService:MatieresService) {
               }
 
-  url = 'http://localhost:8010/api/assignments';
+  url = 'http://localhost:10000/api/assignments';
 
   getAssignments():Observable<Assignment[]> {
     //return of(this.assignments);

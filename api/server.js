@@ -26,7 +26,7 @@ const options = {
 const tableauCors = [
   'http://localhost:5000',
   'http://localhost:4200',
-  'http://localhost:8010',
+  'http://localhost:10000',
   'http://localhost:80',
   'http://localhost',
   'http://localhost:10000',
@@ -47,7 +47,7 @@ mongoose.connect(uri, options)
   .then(() => {
     console.log("Connecté à la base MongoDB assignments dans le cloud !");
     console.log("at URI = " + uri);
-    console.log("vérifiez with http://localhost:8010/api/assignments que cela fonctionne")
+    console.log("vérifiez with http://localhost:10000/api/assignments que cela fonctionne")
     },
     err => {
       console.log('Erreur de connexion: ', err);
@@ -68,7 +68,7 @@ app.use(bodyParser.json());
 
 setupCORS(app, tableauCors);
 
-let port = process.env.PORT || 8010;
+let port = process.env.PORT || 10000;
 
 // les routes
 const prefix = '/api';
