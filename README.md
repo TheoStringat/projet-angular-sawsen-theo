@@ -65,3 +65,8 @@ Théo Stringat :
  ## Lien vers l'application
 
  https://app-assignment.onrender.com/
+
+ ## Lien de la vidéo
+
+ https://unice-my.sharepoint.com/:v:/g/personal/theo_stringat_etu_unice_fr/EcwM6S_CZY9Kl0uAOsm9fk4BB5I98q8SrC44Xur0w09IgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6ThoO6
+ 
