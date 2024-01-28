@@ -11,7 +11,7 @@ export class UsersService {
 
   constructor(private http:HttpClient) {}
 
-  url = 'http://localhost:10000/api/users';
+  url = '/api/users';
 
   
   getUsers():Observable<User[]> {

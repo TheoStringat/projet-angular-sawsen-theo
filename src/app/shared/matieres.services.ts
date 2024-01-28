@@ -11,7 +11,7 @@ export class MatieresService {
 
   constructor(private http:HttpClient) {}
 
-  url = 'http://localhost:10000/api/matieres';
+  url = '/api/matieres';
 
   
   getMatieres():Observable<Matiere[]> {
