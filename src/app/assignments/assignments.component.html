@@ -7,6 +7,19 @@
     <!--mets un mat-paginator qui remplace les boutons precédent et suivant-->
     <mat-paginator [length]="totalDocs" [pageSize]="limit" [pageSizeOptions]="[5, 10, 20]" (page)="onPageChange($event)">
     </mat-paginator>
+    <!-- Champ de recherche pour les assignments -->
+    <input matInput (keyup)="onSearchChange($event)" placeholder="Rechercher par nom">
+
+
+    <!--filtre pour les devoirs rendus et non rendus-->
+    <mat-form-field>
+        <mat-label>Devoirs rendus ou non rendus</mat-label>
+        <mat-select (selectionChange)="onRenduChange($event)">
+            <mat-option value="tous">Tous</mat-option>
+            <mat-option value="rendu">Rendus</mat-option>
+            <mat-option value="non rendu">Non rendus</mat-option>
+        </mat-select>
+    </mat-form-field>
        
     <span class="example-spacer1"></span>
     <div >
@@ -17,7 +30,7 @@
 
     </div>
 
-    <table  mat-table [dataSource]="assignments" class="mat-elevation-z8">
+    <table  mat-table [dataSource]="filteredAssignments" class="mat-elevation-z8">
         <ng-container matColumnDef="nom" >
             <th mat-header-cell *matHeaderCellDef> Nom </th>
             <td mat-cell *matCellDef="let assignment"> {{assignment.nom}} </td>

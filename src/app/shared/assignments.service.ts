@@ -78,8 +78,23 @@ export class AssignmentsService {
     });
   }
 
-  getAssignmentsPagine(page:number, limit:number):Observable<any> {
-    return this.http.get<any>(this.url + '?page=' + page + '&limit=' + limit);
-  }
+
+  // faire methode getAssignmentsPagine qui intègre le filre des assignments sur l'état 'rendu' ou 'non rendu' et renvoie un Observable
+  getAssignmentsPagine(page: number, limit: number, filter: string, searchTerm: string): Observable<any> {
+    let queryParams = `?page=${page}&limit=${limit}`;
+    if (filter === 'rendu') {
+        queryParams += `&rendu=true`;
+    } else if (filter === 'non rendu') {
+        queryParams += `&rendu=false`;
+    }
+    if (searchTerm) {
+        queryParams += `&nom=${searchTerm}`;
+    }
+    console.log(queryParams);
+    return this.http.get<any>(`${this.url}${queryParams}`);
+}
+
+
+
 
 }

@@ -6,6 +6,13 @@ auteurs
 [Sawsen El Bahri - TP2]
 [Théo Stringat - TP2]
 
+## Credentials
+
+liste des identifiants et mots de passe pour les utilisateurs de l'application :
+- administrateur : login : user1, password : password1
+- utilisateur : login : user2, password : password2
+- utilisateur : login : user3, password : password3
+
 ## Fonctionnalités
 
 - [X] Au moins 1000 assignments dans la base de données
@@ -32,8 +39,8 @@ auteurs
     - [ ] Regardez les tables avec datasource, c'est encore plus simple.
     - [X] La vue détails montrera en plus les remarques, la note s'il a été rendu, la photo du prof, etc.
     - [X] Les formulaires d'ajout et de détails proposeront un choix fixe de matières (et associeront automatiquement le prof et l'image illustrant la matière) 
-    - [ ] OPTIONNEL : Ajouter un filtre rendu/non rendu : Selon que cette case est cochée ou pas le tableau affichera uniquement les assignments rendus ou non rendus. 
-    - [ ] OPTIONNEL : Ajouter un champ de recherche sur le nom de l'assignment qui enverra une requête et affichera les résultats correspondants à la recherche. 
+    - [X] OPTIONNEL : Ajouter un filtre rendu/non rendu : Selon que cette case est cochée ou pas le tableau affichera uniquement les assignments rendus ou non rendus. 
+    - [X] OPTIONNEL : Ajouter un champ de recherche sur le nom de l'assignment qui enverra une requête et affichera les résultats correspondants à la recherche. 
     - [ ] OPTIONNEL (mais simple à faire): utiliser un Formulaire de type Stepper (formulaire en plusieurs étapes) pour l'ajout d'Assignments (éventuellement pour la modification) 
 
 - [X] Rendre le tout plus joli, essayez de ne pas tous faire la même chose. Je recommande une toolbar en haut, une sidebar sur le côté

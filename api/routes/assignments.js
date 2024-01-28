@@ -1,8 +1,17 @@
 let Assignment = require('../model/assignment');
 
 // Récupérer tous les assignments (GET)
-function getAssignments(req, res) {
-    let aggregateQuery = Assignment.aggregate();
+  /*
+  function getAssignments(req, res) {
+    let query = {};
+    if (req.query.rendu) {
+        query.rendu = req.query.rendu === 'true';
+    }
+
+    let aggregateQuery = Assignment.aggregate([
+        { $match: query }
+    ]);
+
     Assignment.aggregatePaginate(
       aggregateQuery,
       {
@@ -16,7 +25,39 @@ function getAssignments(req, res) {
         res.send(assignments);
       }
     );
+}
+*/
+
+// Récupérer tous les assignments (GET)
+function getAssignments(req, res) {
+  let query = {};
+  if (req.query.rendu) {
+      query.rendu = req.query.rendu === 'true';
   }
+
+  if (req.query.nom) {
+      query.nom = { $regex: req.query.nom, $options: "i" }; // Recherche insensible à la casse
+  }
+
+  let aggregateQuery = Assignment.aggregate([
+      { $match: query }
+  ]);
+
+  Assignment.aggregatePaginate(
+    aggregateQuery,
+    {
+      page: parseInt(req.query.page) || 1,
+      limit: parseInt(req.query.limit) || 10,
+    },
+    (err, assignments) => {
+      if (err) {
+        res.send(err);
+      }
+      res.send(assignments);
+    }
+  );
+}
+
 
 
 

@@ -2,7 +2,6 @@ import { Component, OnInit, } from '@angular/core';
 import { Assignment } from './assignment.model';
 import { AssignmentsService } from '../shared/assignments.service';
 import { Router } from '@angular/router';
-import { MatTableDataSource } from '@angular/material/table';
 import { PageEvent } from '@angular/material/paginator';
 
 @Component({
@@ -33,7 +32,9 @@ export class AssignmentsComponent implements OnInit {
   formVisible = false;
   assignments!: Assignment[];
   displayedColumns: string[] = ['dateDeRendu', 'nom', 'auteur', 'etat'];
-
+  selectedOption: string = 'tous';
+  filteredAssignments!: Assignment[];
+  searchTerm: string = "";
   
 
   constructor(private assignmentService:AssignmentsService,
@@ -44,8 +45,20 @@ export class AssignmentsComponent implements OnInit {
     this.getPaginatorAssignments();
   }
 
+  // On filtre les assignments en fonction de l'option sélectionnée
+  onRenduChange(event: any) {
+    console.log(event.value);
+    this.selectedOption = event.value;
+    this.getPaginatorAssignments();
+  }
+
+  onSearchChange(event: any) {
+    this.searchTerm = event.target.value;
+    this.getPaginatorAssignments();
+  }
+
+
   onPageChange(event: PageEvent) {
-    console.log(event);
     // si l'utilisateur clique sur le bouton de la page d'après
     if(event.pageIndex > (event.previousPageIndex ?? 0)) {
       this.page++;
@@ -61,7 +74,7 @@ export class AssignmentsComponent implements OnInit {
   }
 
   getPaginatorAssignments() {
-    this.assignmentService.getAssignmentsPagine(this.page, this.limit).subscribe(data => {
+    this.assignmentService.getAssignmentsPagine(this.page, this.limit, this.selectedOption, this.searchTerm).subscribe(data => {
       this.assignments = data.docs;
       this.totalDocs = data.totalDocs;
       this.totalPages = data.totalPages;
@@ -74,6 +87,10 @@ export class AssignmentsComponent implements OnInit {
       this.hasNextPageInUrl = data.hasNextPageInUrl;
       this.prevPageInUrl = data.prevPageInUrl;
       this.nextPageInUrl = data.nextPageInUrl;
+
+      // Une fois les assignments récupérés, on met les données dans le tableau 'filteredAssignments'
+      this.filteredAssignments = this.assignments;
+
       console.log("Données reçues !");
     });
   }
