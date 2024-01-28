@@ -51,6 +51,18 @@ body {
   background-color: #e0e0e0; /* Couleur de fond pour les en-têtes */
 }
 
+.champsRechercheFiltre {
+  display: inline;
+  margin: 0 0.5rem;
+  padding: 0.2rem ;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 400;
+  width: auto;
+}
+
 .mat-cell, .mat-header-cell {
   padding: 8px;
   border-bottom: 1px solid #ddd; /* Lignes de séparation subtiles */
