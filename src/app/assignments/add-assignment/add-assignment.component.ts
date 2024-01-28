@@ -39,12 +39,13 @@ export class AddAssignmentComponent implements OnInit{
       newAssignment.matiere.imageMatiere = matiereTrouvee.imageMatiere;
       newAssignment.matiere.prof = matiereTrouvee.prof;
     }
-
+    newAssignment.auteur = this.nomEleve;
     newAssignment.nom = this.nomDevoir;
     newAssignment.dateDeRendu = this.dateDeRendu;
     newAssignment.rendu = false;
+    newAssignment.note = 99; //note par defaut si l'assignment n'est pas rendu
     newAssignment.matiere.nom = this.matiereSelectionnee;
-    newAssignment.id = Math.floor(Math.random() * 1000);
+    newAssignment.id = 1000 + Math.floor(Math.random() * 1000);
 
     this.assignmentsService.addAssignment(newAssignment)
       .subscribe(message => {
