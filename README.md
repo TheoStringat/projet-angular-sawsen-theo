@@ -48,3 +48,9 @@ liste des identifiants et mots de passe pour les utilisateurs de l'application :
 
 ## Répartition des tâches
 
+Sawsen El Bahri :
+ - Génération des assignments et adaptation du code pour les assignments
+ - Partie Users avec la collection associée
+ - Majeure partie du CSS
+
+Théo Stringat :
